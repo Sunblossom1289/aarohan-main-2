@@ -1,6 +1,7 @@
 // FILE: src/components/pages/BannerPage.jsx
 
 import React, { useRef, useState, useEffect, useMemo, useCallback, lazy, Suspense, memo } from 'react';
+import { createPortal } from 'react-dom';
 import { Helmet } from 'react-helmet-async';
 import { motion, useScroll, useTransform, useMotionValueEvent, AnimatePresence } from 'framer-motion';
 import { 
