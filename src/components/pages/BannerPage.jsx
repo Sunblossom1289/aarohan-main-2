@@ -775,15 +775,44 @@ const HeroSection = memo(({ onNavigate, shouldReduceAnimations }) => {
         </div>
       </div>
 
-      <AnimatePresence>
+     <AnimatePresence>
         {isMobile && isFormOpen && (
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.2 }} onClick={() => setIsFormOpen(false)} style={{ position: 'fixed', inset: 0, zIndex: 1000, background: 'rgba(15, 23, 42, 0.6)', backdropFilter: 'blur(8px)', display: 'flex', alignItems: 'flex-end', justifyContent: 'center' }}>
-            <motion.div initial={{ y: '100%' }} animate={{ y: 0 }} exit={{ y: '100%' }} transition={{ type: 'spring', damping: 28, stiffness: 300 }} onClick={(e) => e.stopPropagation()} style={{ width: '100%', maxHeight: '92vh', overflowY: 'auto', WebkitOverflowScrolling: 'touch', background: 'white', borderRadius: '24px 24px 0 0', padding: '24px 20px 32px', boxShadow: '0 -10px 40px rgba(0,0,0,0.15)', position: 'relative' }}>
-              <div style={{ width: '40px', height: '4px', borderRadius: '2px', background: '#cbd5e1', margin: '0 auto 20px' }} />
-              <button onClick={() => setIsFormOpen(false)} style={{ position: 'absolute', top: '16px', right: '16px', background: 'rgba(0,0,0,0.05)', border: 'none', borderRadius: '50%', width: '36px', height: '36px', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', color: 'var(--yale-blue)' }}>
-                <X size={20} />
-              </button>
-              {FormElement}
+          <motion.div 
+            initial={{ opacity: 0 }} 
+            animate={{ opacity: 1 }} 
+            exit={{ opacity: 0 }} 
+            transition={{ duration: 0.2 }} 
+            onClick={() => setIsFormOpen(false)} 
+            style={{ position: 'fixed', inset: 0, zIndex: 1000, background: 'rgba(15, 23, 42, 0.6)', backdropFilter: 'blur(8px)', display: 'flex', alignItems: 'flex-end', justifyContent: 'center' }}
+          >
+            <motion.div 
+              initial={{ y: '100%' }} 
+              animate={{ y: 0 }} 
+              exit={{ y: '100%' }} 
+              transition={{ type: 'spring', damping: 28, stiffness: 300 }} 
+              onClick={(e) => e.stopPropagation()} 
+              style={{ width: '100%', maxHeight: '92vh', background: 'white', borderRadius: '24px 24px 0 0', boxShadow: '0 -10px 40px rgba(0,0,0,0.15)', position: 'relative', display: 'flex', flexDirection: 'column' }}
+            >
+              
+              {/* --- FIXED TOP AREA (Never scrolls) --- */}
+              <div style={{ position: 'relative', flexShrink: 0, padding: '20px 20px 10px 20px' }}>
+                {/* Top Drag Handle */}
+                <div style={{ width: '40px', height: '4px', borderRadius: '2px', background: '#cbd5e1', margin: '0 auto' }} />
+                
+                {/* X (Cut) Button with High Z-Index */}
+                <button 
+                  onClick={() => setIsFormOpen(false)} 
+                  style={{ position: 'absolute', top: '16px', right: '16px', background: '#f1f5f9', border: 'none', borderRadius: '50%', width: '36px', height: '36px', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', color: 'var(--yale-blue)', zIndex: 100 }}
+                >
+                  <X size={20} />
+                </button>
+              </div>
+
+              {/* --- SCROLLABLE FORM AREA --- */}
+              <div style={{ overflowY: 'auto', WebkitOverflowScrolling: 'touch', padding: '0 20px 32px 20px', flexGrow: 1 }}>
+                {FormElement}
+              </div>
+
             </motion.div>
           </motion.div>
         )}
