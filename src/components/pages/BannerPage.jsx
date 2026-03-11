@@ -264,6 +264,7 @@ const CareerNetworkCanvas = memo(({ shouldReduceAnimations }) => {
 
 // ==================== PREMIUM PAGE BREAKER STACK WRAPPER ====================
 const StackedSection = memo(({ children, zIndex, isFirst = false, bg, shouldReduceAnimations }) => {
+  const isMobile = useIsMobile();
   const ref = useRef(null);
   
   const { scrollYProgress } = useScroll({
@@ -271,12 +272,35 @@ const StackedSection = memo(({ children, zIndex, isFirst = false, bg, shouldRedu
     offset: ["start start", "end start"]
   });
   
-  const y = useTransform(scrollYProgress, [0, 1], ["0%", "12%"]);
-  const scale = useTransform(scrollYProgress, [0, 1], [1, 0.92]);
-  const opacity = useTransform(scrollYProgress, [0, 1], [1, 0.4]);
+  // Desktop animations
+  const yDesktop = useTransform(scrollYProgress, [0, 1], ["0%", "10%"]);
+  const scaleDesktop = useTransform(scrollYProgress, [0, 1], [1, 0.94]);
+  const opacityDesktop = useTransform(scrollYProgress, [0, 1], [1, 0.5]);
+
+  // Mobile animations (Micro-interactions for smoothness)
+  const yMobile = useTransform(scrollYProgress, [0, 1], ["0%", "4%"]);
+  const scaleMobile = useTransform(scrollYProgress, [0, 1], [1, 0.98]);
+  const opacityMobile = useTransform(scrollYProgress, [0, 1], [1, 0.8]);
+
+  const y = isMobile ? yMobile : yDesktop;
+  const scale = isMobile ? scaleMobile : scaleDesktop;
+  const opacity = isMobile ? opacityMobile : opacityDesktop;
 
   if (shouldReduceAnimations) {
-    return <div style={{ position: 'relative', zIndex, background: bg }}>{children}</div>;
+    return (
+      <div style={{ 
+        position: 'relative', 
+        zIndex, 
+        background: bg, 
+        paddingTop: isFirst ? '0' : '40px',
+        marginTop: isFirst ? '0' : '-30px', 
+        borderTopLeftRadius: isFirst ? '0' : '32px',
+        borderTopRightRadius: isFirst ? '0' : '32px',
+        boxShadow: isFirst ? 'none' : '0 -15px 30px rgba(0,0,0,0.05)'
+      }}>
+        {children}
+      </div>
+    );
   }
 
   return (
@@ -291,14 +315,14 @@ const StackedSection = memo(({ children, zIndex, isFirst = false, bg, shouldRedu
         opacity,
         transformOrigin: "top center",
         boxShadow: isFirst ? 'none' : '0 -30px 60px -15px rgba(27, 73, 101, 0.4)',
-        borderTopLeftRadius: isFirst ? '0' : '40px',
-        borderTopRightRadius: isFirst ? '0' : '40px',
+        borderTopLeftRadius: isFirst ? '0' : (isMobile ? '32px' : '40px'),
+        borderTopRightRadius: isFirst ? '0' : (isMobile ? '32px' : '40px'),
         overflow: 'hidden',
         willChange: "transform, opacity",
-        marginTop: isFirst ? '0' : '-40px',
+        marginTop: isFirst ? '0' : (isMobile ? '-30px' : '-40px'),
       }}
     >
-      <div style={{ paddingTop: isFirst ? '0' : '40px', height: '100%' }}>
+      <div style={{ paddingTop: isFirst ? '0' : (isMobile ? '30px' : '40px'), height: '100%' }}>
         {children}
       </div>
     </motion.div>
@@ -325,7 +349,7 @@ const GlobalStyles = memo(() => (
     
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-    body { margin: 0; font-family: var(--font-family-base); color: var(--color-text-main); background-color: #f8fbff; overflow-x: hidden; }
+    body { margin: 0; font-family: var(--font-family-base); color: var(--color-text-main); background-color: #f8fbff; overflow-x: hidden; -webkit-font-smoothing: antialiased; }
     
     .container { max-width: 1300px; margin: 0 auto; padding: 0 24px; }
     
@@ -520,15 +544,7 @@ const Navbar = memo(({ onNavigate, shouldReduceAnimations }) => {
 const HeroSection = memo(({ onNavigate, shouldReduceAnimations }) => {
   const [isFormOpen, setIsFormOpen] = useState(false);
   const hasAutoOpened = useRef(false);
-
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const check = () => setIsMobile(window.innerWidth < 1024);
-    check();
-    window.addEventListener('resize', check);
-    return () => window.removeEventListener('resize', check);
-  }, []);
+  const isMobile = useIsMobile();
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -778,6 +794,42 @@ const HeroSection = memo(({ onNavigate, shouldReduceAnimations }) => {
 
 // --- FEATURES SECTION ---
 const FeaturesSection = memo(({ onNavigate, shouldReduceAnimations }) => {
+  const isMobile = useIsMobile();
+  const scrollRef = useRef(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(true);
+
+  const updateScrollArrows = useCallback(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    setCanScrollLeft(el.scrollLeft > 8);
+    setCanScrollRight(el.scrollLeft < el.scrollWidth - el.clientWidth - 8);
+  }, []);
+
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el || !isMobile) return;
+    updateScrollArrows();
+    el.addEventListener('scroll', updateScrollArrows, { passive: true });
+    window.addEventListener('resize', updateScrollArrows);
+    return () => {
+      el.removeEventListener('scroll', updateScrollArrows);
+      window.removeEventListener('resize', updateScrollArrows);
+    };
+  }, [updateScrollArrows, isMobile]);
+
+  const scrollToPrev = useCallback(() => {
+    const el = scrollRef.current;
+    if (!el || !canScrollLeft) return;
+    el.scrollBy({ left: -(window.innerWidth * 0.85 + 16), behavior: 'smooth' });
+  }, [canScrollLeft]);
+
+  const scrollToNext = useCallback(() => {
+    const el = scrollRef.current;
+    if (!el || !canScrollRight) return;
+    el.scrollBy({ left: window.innerWidth * 0.85 + 16, behavior: 'smooth' });
+  }, [canScrollRight]);
+
   const cards = [
     { id: 1, title: "Personalized Career Mentorship", headline: "Your Very Own Career GPS", copy: "Stop the guesswork. Sit down with an expert who gets you. We’ll map out your detours, shortcuts, and the ultimate destination.", btn: "Meet Your Human Compass", icon: <Users size={48} strokeWidth={1.5} />, color: "var(--yale-blue)", imgUrl: "/images/22.webp" },
     { id: 2, title: "Advanced Assessments", headline: "Decode Your Superpowers", copy: "Take a multi-dimensional dive into your brain. Find out why you’re a natural leader or a creative genius.", btn: "Unlock My Profile", icon: <Brain size={48} strokeWidth={1.5} />, color: "var(--pacific-blue)", imgUrl: "/images/28.webp" },
@@ -787,9 +839,9 @@ const FeaturesSection = memo(({ onNavigate, shouldReduceAnimations }) => {
 
   return (
     <section id="features" className="section-padding" style={{ background: '#fff' }}>
-      <div className="container">
+      <div className="container" style={{ paddingLeft: isMobile ? 0 : '24px', paddingRight: isMobile ? 0 : '24px' }}>
         
-        <div style={{ textAlign: 'center', marginBottom: '4rem', maxWidth: '800px', margin: '0 auto 4rem auto' }}>
+        <div style={{ padding: isMobile ? '0 24px' : 0, textAlign: 'center', marginBottom: '4rem', maxWidth: '800px', margin: isMobile ? '0 0 3rem 0' : '0 auto 4rem auto' }}>
           <span className="text-label">The 'secret sauce' revealed</span>
           <h2 className="text-huge" style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', marginBottom: '24px' }}>
             Sneak Peek at Your Experience
@@ -799,11 +851,25 @@ const FeaturesSection = memo(({ onNavigate, shouldReduceAnimations }) => {
           </p>
         </div>
 
-        <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '32px', marginBottom: '48px' }}>
-          {cards.map((card) => (
-            <FeatureCard key={card.id} card={card} shouldReduceAnimations={shouldReduceAnimations} />
-          ))}
-        </div>
+        {isMobile ? (
+          <div style={{ position: 'relative', marginBottom: '48px' }}>
+            <button onClick={scrollToPrev} style={getCenterArrowStyle(canScrollLeft, 'left')} aria-label="Scroll left"><ChevronLeft size={28} strokeWidth={2.5} /></button>
+            <div ref={scrollRef} style={{ display: 'flex', gap: '16px', overflowX: 'auto', scrollSnapType: 'x mandatory', paddingBottom: '24px', scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch', paddingLeft: '24px', paddingRight: '24px', alignItems: 'stretch' }}>
+              {cards.map((card) => (
+                <div key={card.id} style={{ flex: '0 0 85vw', maxWidth: '320px', scrollSnapAlign: 'center' }}>
+                  <FeatureCard card={card} shouldReduceAnimations={shouldReduceAnimations} />
+                </div>
+              ))}
+            </div>
+            <button onClick={scrollToNext} style={getCenterArrowStyle(canScrollRight, 'right')} aria-label="Scroll right"><ChevronRight size={28} strokeWidth={2.5} /></button>
+          </div>
+        ) : (
+          <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '32px', marginBottom: '48px' }}>
+            {cards.map((card) => (
+              <FeatureCard key={card.id} card={card} shouldReduceAnimations={shouldReduceAnimations} />
+            ))}
+          </div>
+        )}
 
         <div style={{ textAlign: 'center' }}>
           <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={() => onNavigate('student-login')} style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', padding: '16px 32px', background: 'var(--yale-blue)', color: 'white', border: 'none', borderRadius: '50px', fontWeight: 'bold', fontSize: '1.1rem', cursor: 'pointer', boxShadow: '0 4px 15px rgba(27, 73, 101, 0.2)' }}>
@@ -850,23 +916,51 @@ const FeatureCard = memo(({ card, shouldReduceAnimations }) => {
   );
 });
 
-// --- PERKS SECTION (STATIC WRAPPER - NO STACK ANIMATION FOR THIS SPECIFIC BLOCK) ---
+// --- PERKS SECTION ---
 const PerksSection = memo(({ shouldReduceAnimations }) => {
   const containerRef = useRef(null);
   const [activeSlide, setActiveSlide] = useState(0);
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const checkMobile = () => setIsMobile(window.innerWidth < 1024);
-    checkMobile();
-    window.addEventListener('resize', checkMobile, { passive: true });
-    return () => window.removeEventListener('resize', checkMobile);
-  }, []);
+  const isMobile = useIsMobile();
+  
+  const scrollRef = useRef(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(true);
 
   const { scrollYProgress } = useScroll({ 
     target: containerRef, 
     offset: ["start start", "end end"] 
   });
+
+  const updateScrollArrows = useCallback(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    setCanScrollLeft(el.scrollLeft > 8);
+    setCanScrollRight(el.scrollLeft < el.scrollWidth - el.clientWidth - 8);
+  }, []);
+
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el || !isMobile) return;
+    updateScrollArrows();
+    el.addEventListener('scroll', updateScrollArrows, { passive: true });
+    window.addEventListener('resize', updateScrollArrows);
+    return () => {
+      el.removeEventListener('scroll', updateScrollArrows);
+      window.removeEventListener('resize', updateScrollArrows);
+    };
+  }, [updateScrollArrows, isMobile]);
+
+  const scrollToPrev = useCallback(() => {
+    const el = scrollRef.current;
+    if (!el || !canScrollLeft) return;
+    el.scrollBy({ left: -(window.innerWidth * 0.85 + 16), behavior: 'smooth' });
+  }, [canScrollLeft]);
+
+  const scrollToNext = useCallback(() => {
+    const el = scrollRef.current;
+    if (!el || !canScrollRight) return;
+    el.scrollBy({ left: window.innerWidth * 0.85 + 16, behavior: 'smooth' });
+  }, [canScrollRight]);
 
   const features = useMemo(() => [
     { id: 0, title: "Aptitude Assessment", desc: "Scientific testing algorithms designed to uncover your innate strengths.", processTitle: "Take Aptitude Assessment", processDesc: "Our proprietary AI driven algorithm analyzes aptitude, interest and personality data to provide scientific inputs to the parents, Students & Counselors.", icon: <Award size={32} />, color: "#1b4965", img: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=1920" },
@@ -883,24 +977,37 @@ const PerksSection = memo(({ shouldReduceAnimations }) => {
   if (isMobile || shouldReduceAnimations) {
     return (
       <div className="section-padding" style={{ background: 'transparent' }}>
-        <div className="container" style={{ display: 'flex', flexDirection: 'column', gap: '40px' }}>
-          <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
+        <div className="container" style={{ paddingLeft: isMobile ? 0 : '24px', paddingRight: isMobile ? 0 : '24px' }}>
+          
+          <div style={{ padding: isMobile ? '0 24px' : 0, textAlign: 'center', marginBottom: '2rem' }}>
             <span className="text-label">Your Journey</span>
             <h2 className="text-huge">HOW IT WORKS</h2>
           </div>
-          {features.map((feature, i) => (
-             <div key={i} style={{ borderRadius: '24px', overflow: 'hidden', background: 'white', boxShadow: '0 4px 20px rgba(0,0,0,0.05)' }}>
-                <div style={{ height: '200px', backgroundImage: `url(${feature.img})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
-                <div style={{ padding: '24px' }}>
-                   <h3 style={{ fontSize: '1.5rem', marginBottom: '8px', color: feature.color, display: 'flex', alignItems: 'center', gap: '10px' }}>
-                     {feature.icon} {feature.title}
-                   </h3>
-                   <p style={{ color: '#4a7a96', lineHeight: 1.6, marginBottom: '20px' }}>{feature.desc}</p>
-                   <div style={{ height: '1px', background: '#e2e8f0', margin: '0 0 20px 0' }}></div>
-                   <h4 style={{ fontSize: '1.1rem', color: '#64748b', marginBottom: '4px' }}>{feature.processDesc}</h4>
+
+          <div style={{ position: 'relative' }}>
+            <button onClick={scrollToPrev} style={getCenterArrowStyle(canScrollLeft, 'left')} aria-label="Scroll left"><ChevronLeft size={28} strokeWidth={2.5} /></button>
+            
+            <div ref={scrollRef} style={{ display: 'flex', gap: '16px', overflowX: 'auto', scrollSnapType: 'x mandatory', paddingBottom: '24px', scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch', paddingLeft: '24px', paddingRight: '24px', alignItems: 'stretch' }}>
+              {features.map((feature, i) => (
+                <div key={i} style={{ flex: '0 0 85vw', maxWidth: '320px', scrollSnapAlign: 'center' }}>
+                  <div style={{ borderRadius: '24px', overflow: 'hidden', background: 'white', boxShadow: '0 4px 20px rgba(0,0,0,0.05)', height: '100%', display: 'flex', flexDirection: 'column' }}>
+                    <div style={{ height: '200px', backgroundImage: `url(${feature.img})`, backgroundSize: 'cover', backgroundPosition: 'center', flexShrink: 0 }}></div>
+                    <div style={{ padding: '24px', display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
+                      <h3 style={{ fontSize: '1.5rem', marginBottom: '8px', color: feature.color, display: 'flex', alignItems: 'center', gap: '10px' }}>
+                        {feature.icon} {feature.title}
+                      </h3>
+                      <p style={{ color: '#4a7a96', lineHeight: 1.6, marginBottom: '20px', flexGrow: 1 }}>{feature.desc}</p>
+                      <div style={{ height: '1px', background: '#e2e8f0', margin: '0 0 20px 0' }}></div>
+                      <h4 style={{ fontSize: '1.1rem', color: '#64748b', marginBottom: '4px' }}>{feature.processDesc}</h4>
+                    </div>
+                  </div>
                 </div>
-             </div>
-          ))}
+              ))}
+            </div>
+
+            <button onClick={scrollToNext} style={getCenterArrowStyle(canScrollRight, 'right')} aria-label="Scroll right"><ChevronRight size={28} strokeWidth={2.5} /></button>
+          </div>
+
         </div>
       </div>
     )
@@ -1026,29 +1133,9 @@ const ProgramModal = memo(({ program, onClose, onNavigate }) => {
   );
 });
 
-// --- STACKED PROGRAM CARD ---
-const StackedProgramCard = memo(({ prog, i, progress, range, targetScale, onClick }) => {
-  const scale = useTransform(progress, range, [1, targetScale]);
-  const opacity = useTransform(progress, range, [1, 0.6]);
 
-  return (
-    <div style={{ position: 'sticky', top: `calc(120px + ${i * 25}px)`, paddingBottom: '40px', zIndex: i }}>
-      <motion.div style={{ scale, opacity, transformOrigin: 'top center', background: '#f8fbff', borderRadius: '32px', border: '1px solid var(--frozen-water)', boxShadow: '0 -15px 40px -10px rgba(27, 73, 101, 0.15)', padding: '40px', display: 'flex', gap: '40px', alignItems: 'center', minHeight: '400px', willChange: 'transform, opacity' }}>
-        <div style={{ flex: '0 0 35%', aspectRatio: '1 / 1', borderRadius: '24px', overflow: 'hidden', boxShadow: 'inset 0 0 0 1px rgba(0,0,0,0.05)' }}>
-          <img src={prog.imgUrl} alt={prog.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-        </div>
-        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'flex-start', textAlign: 'left' }}>
-          <h3 style={{ fontSize: '2.5rem', fontWeight: '900', color: 'var(--yale-blue)', marginBottom: '12px', lineHeight: 1.1 }}>{prog.title}</h3>
-          <p style={{ display: 'inline-block', padding: '6px 16px', background: 'var(--pale-sky)', color: 'var(--yale-blue)', borderRadius: '50px', fontWeight: '700', fontSize: '1rem', marginBottom: '24px' }}>{prog.grade}</p>
-          <p style={{ color: 'var(--color-text-muted)', lineHeight: 1.6, fontSize: '1.15rem', marginBottom: '32px' }}>{prog.fullDesc}</p>
-          <button onClick={onClick} className="btn btn-primary" style={{ padding: '16px 32px', borderRadius: '50px', fontSize: '1.1rem', gap: '8px', boxShadow: '0 8px 20px -4px rgba(95, 168, 211, 0.4)' }}>
-            Explore Program <ChevronRight size={20} />
-          </button>
-        </div>
-      </motion.div>
-    </div>
-  );
-});
+// --- PROGRAMS SECTION ---
+
 
 // --- PROGRAMS SECTION ---
 const ProgramsSection = memo(({ onNavigate, shouldReduceAnimations }) => {
@@ -1058,9 +1145,6 @@ const ProgramsSection = memo(({ onNavigate, shouldReduceAnimations }) => {
   const scrollRef = useRef(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);
-
-  const containerRef = useRef(null);
-  const { scrollYProgress } = useScroll({ target: containerRef, offset: ["start start", "end end"] });
 
   const updateScrollArrows = useCallback(() => {
     const el = scrollRef.current;
@@ -1101,7 +1185,7 @@ const ProgramsSection = memo(({ onNavigate, shouldReduceAnimations }) => {
   ], []);
 
   const renderMobileProgramCard = (prog, i) => (
-    <motion.div key={i} style={{ padding: '32px', borderRadius: '24px', background: '#f8fbff', border: '1px solid var(--frozen-water)', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', height: '100%' }}>
+    <motion.div key={i} style={{ padding: '32px', borderRadius: '24px', background: '#f8fbff', border: '1px solid var(--frozen-water)', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', height: '100%', boxShadow: '0 10px 30px -10px rgba(0,0,0,0.05)' }}>
       <div style={{ width: '100%', aspectRatio: '1 / 1', borderRadius: '20px', overflow: 'hidden', marginBottom: '24px', background: 'var(--pale-sky)' }}>
         <img src={prog.imgUrl} alt={prog.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
       </div>
@@ -1114,7 +1198,7 @@ const ProgramsSection = memo(({ onNavigate, shouldReduceAnimations }) => {
 
   return (
     <section id="programs" className="section-padding" style={{ background: 'white' }}>
-      <div className="container" style={{ paddingLeft: isMobile ? 0 : '24px', paddingRight: isMobile ? 0 : '24px', maxWidth: '1200px' }}>
+      <div className="container" style={{ paddingLeft: isMobile ? 0 : '24px', paddingRight: isMobile ? 0 : '24px', maxWidth: '1300px' }}>
         
         <div style={{ padding: isMobile ? '0 24px' : 0, textAlign: 'center', marginBottom: '4rem' }}>
           <span className="text-label">Tailored For You</span>
@@ -1134,23 +1218,28 @@ const ProgramsSection = memo(({ onNavigate, shouldReduceAnimations }) => {
             <button onClick={scrollToNext} style={getCenterArrowStyle(canScrollRight, 'right')} aria-label="Scroll right"><ChevronRight size={28} strokeWidth={2.5} /></button>
           </div>
         ) : (
-          <div ref={containerRef} style={{ display: 'flex', flexDirection: 'column', gap: '60px', paddingBottom: '100px', position: 'relative' }}>
-            {programs.map((prog, i) => {
-              const targetScale = 1 - ((programs.length - 1 - i) * 0.05);
-              const range = [i * 0.25, 1];
-              
-              return (
-                <StackedProgramCard
-                  key={i}
-                  prog={prog}
-                  i={i}
-                  progress={scrollYProgress}
-                  range={range}
-                  targetScale={targetScale}
-                  onClick={() => setSelectedProgram(prog)}
-                />
-              );
-            })}
+          // UPDATED: Desktop ke liye 4-column grid layout
+          <div className="grid md:grid-cols-4" style={{ gap: '24px', position: 'relative' }}>
+            {programs.map((prog, i) => (
+              <motion.div 
+                key={i} 
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.5, delay: i * 0.1 }}
+                style={{ background: '#ffffff', borderRadius: '32px', border: '1px solid rgba(27, 73, 101, 0.1)', boxShadow: '0 10px 40px -10px rgba(27, 73, 101, 0.08)', padding: '32px', display: 'flex', flexDirection: 'column', gap: '8px', alignItems: 'center', textAlign: 'center', height: '100%' }}
+              >
+                <div style={{ width: '100%', aspectRatio: '1/1', borderRadius: '24px', overflow: 'hidden', marginBottom: '16px', boxShadow: 'inset 0 0 0 1px rgba(0,0,0,0.05)' }}>
+                  <img src={prog.imgUrl} alt={prog.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                </div>
+                <h3 style={{ fontSize: '1.4rem', fontWeight: '900', color: 'var(--yale-blue)', marginBottom: '8px', lineHeight: 1.2 }}>{prog.title}</h3>
+                <p style={{ display: 'inline-block', padding: '6px 14px', background: 'var(--pale-sky)', color: 'var(--yale-blue)', borderRadius: '50px', fontWeight: '700', fontSize: '0.85rem', marginBottom: '8px' }}>{prog.grade}</p>
+                <p style={{ color: 'var(--color-text-muted)', lineHeight: 1.5, fontSize: '0.95rem', marginBottom: '24px', flexGrow: 1 }}>{prog.details}</p>
+                <button onClick={() => setSelectedProgram(prog)} className="btn btn-primary" style={{ padding: '14px 24px', borderRadius: '50px', fontSize: '1rem', gap: '8px', boxShadow: '0 8px 20px -4px rgba(95, 168, 211, 0.4)', width: '100%' }}>
+                  Explore Program <ChevronRight size={18} />
+                </button>
+              </motion.div>
+            ))}
           </div>
         )}
       </div>
@@ -1518,7 +1607,7 @@ const InfoPageLayout = memo(({ title, lastUpdated, children, onNavigate }) => (
 ));
 
 // --- INFO PAGES COMPONENTS ---
-const AboutUsPage = ({ onNavigate }) => { /* ... unchanged ... */ return <InfoPageLayout title="About Us" onNavigate={onNavigate}><p>About Us Content Placeholder</p></InfoPageLayout>; };
+const AboutUsPage = ({ onNavigate }) => { return <InfoPageLayout title="About Us" onNavigate={onNavigate}><p>About Us Content Placeholder</p></InfoPageLayout>; };
 const TermsPage = ({ onNavigate }) => { return <InfoPageLayout title="Terms of Service" onNavigate={onNavigate}><p>Terms Content Placeholder</p></InfoPageLayout>; };
 const PrivacyPage = ({ onNavigate }) => { return <InfoPageLayout title="Privacy Policy" onNavigate={onNavigate}><p>Privacy Content Placeholder</p></InfoPageLayout>; };
 const CounselorPage = ({ onNavigate }) => { return <InfoPageLayout title="Counselor Agreement" onNavigate={onNavigate}><p>Counselor Content Placeholder</p></InfoPageLayout>; };
@@ -1683,7 +1772,7 @@ export function BannerPage({ onNavigate, initialView }) {
           <FeaturesSection onNavigate={handleMainNavigate} shouldReduceAnimations={shouldReduceAnimations} />
         </StackedSection>
 
-        {/* PERKS SECTION: Maine yaha se <StackedSection> wrapper hata diya hai. Ab ye shrink nahi hoga balki original smooth scroll karega */}
+        {/* PERKS SECTION */}
         <div style={{
           position: 'relative',
           zIndex: 3,
