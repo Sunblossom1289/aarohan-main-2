@@ -1,0 +1,29 @@
+import fs from 'fs';
+const BASE_URL = "https://myaarohan.com";
+
+const articlesIndex = JSON.parse(fs.readFileSync('./public/articles/index.json'));
+let sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`;
+
+// Add static pages
+sitemap += `
+  <url><loc>${BASE_URL}/</loc></url>
+  <url><loc>${BASE_URL}/about</loc></url>
+`;
+
+// Add Article pages (Assuming you will route them like /article?id=1 or similar)
+// Note: SPAs usually use hash routing (#) which Google ignores, 
+// OR browser routing (/article/1). Ensure your router supports this.
+articlesIndex.forEach(filename => {
+  const article = JSON.parse(fs.readFileSync(`./public/articles/${filename}`));
+  sitemap += `
+  <url>
+    <loc>${BASE_URL}/#article/${article.id}</loc>
+    <lastmod>${new Date(article.date).toISOString()}</lastmod>
+  </url>`;
+});
+
+sitemap += `</urlset>`;
+
+fs.writeFileSync('./public/sitemap.xml', sitemap);
+console.log("Sitemap generated!");

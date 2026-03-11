@@ -1,0 +1,6347 @@
+{
+  "version": "2025-12-29",
+  "questions": [
+    {
+      "id": 1,
+      "text": "What is 25% of 800?",
+      "options": [
+        "300",
+        "150",
+        "200",
+        "250"
+      ],
+      "correct": 2,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 2,
+      "text": "Calculate: 15 + 3 x 4",
+      "options": [
+        "27",
+        "72",
+        "19",
+        "63"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 3,
+      "text": "What is the product of 12 and 6?",
+      "options": [
+        "68",
+        "72",
+        "60",
+        "82"
+      ],
+      "correct": 1,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 4,
+      "text": "If 2x - 8 = 10, what is the value of x?",
+      "options": [
+        "9",
+        "12",
+        "10",
+        "18"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 5,
+      "text": "A shopkeeper sells a book for \u20b9660 at a 10% profit. What was the cost price of the book?",
+      "options": [
+        "\u20b9 594",
+        "\u20b9 600",
+        "\u20b9 726",
+        "\u20b9 650"
+      ],
+      "correct": 1,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 6,
+      "text": "The ratio of mangoes to apples in a box is 4:5. If there are 36 mangoes, how many apples are there in the box?",
+      "options": [
+        "40",
+        "45",
+        "50",
+        "36"
+      ],
+      "correct": 1,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 7,
+      "text": "What will be the simple Interest on \u20b98000 at 7% deposited for 2 years?",
+      "options": [
+        "\u20b9 1,120",
+        "\u20b9 560",
+        "\u20b9 800",
+        "\u20b9 1,200"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 8,
+      "text": "A and B can fill a tank in 10 hours and 15 hours respectively. How long will they take to fill the tank together?",
+      "options": [
+        "5 hours",
+        "6 hours",
+        "8 hours",
+        "12.5 hours"
+      ],
+      "correct": 1,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 9,
+      "text": "What is the probability of drawing an Ace or a King from a standard deck of 52 cards?",
+      "options": [
+        "4/52",
+        "8/26",
+        "1/13",
+        "2/13"
+      ],
+      "correct": 3,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 10,
+      "text": "What is the value of 3/4 + 1/2",
+      "options": [
+        "5/4",
+        "3/2",
+        "1/4",
+        "3/8"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 11,
+      "text": "Convert 0.6 into a fraction. Which is the correct option?",
+      "options": [
+        "3/10",
+        "6/5",
+        "3/5",
+        "1/6"
+      ],
+      "correct": 2,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 12,
+      "text": "Find the area of a rectangle with length 10m and width 5m.",
+      "options": [
+        "15 m2",
+        "50 m2",
+        "30 m2",
+        "40 m2"
+      ],
+      "correct": 1,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 13,
+      "text": "If x^2 = 81, what is the positive value of x?",
+      "options": [
+        "8",
+        "10",
+        "9",
+        "18"
+      ],
+      "correct": 2,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 14,
+      "text": "If 'COLD' is coded as 315124, what is the code for 'WARM'?",
+      "options": [
+        "2311813",
+        "2311814",
+        "2411813",
+        "2211813"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 15,
+      "text": "What is 50% of 150 plus 10% of 200?",
+      "options": [
+        "95",
+        "85",
+        "100",
+        "75"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 16,
+      "text": "Find the Odd one out: Cat, Dog, Tiger, Sparrow",
+      "options": [
+        "Cat",
+        "Dog",
+        "Sparrow",
+        "Tiger"
+      ],
+      "correct": 2,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 17,
+      "text": "Find the Odd one out: Square, Circle, Blue, Triangle",
+      "options": [
+        "Circle",
+        "Blue",
+        "Triangle",
+        "Square"
+      ],
+      "correct": 1,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 18,
+      "text": "Which is the correct Analogy:\nDoctor : Patient :: Lawyer : ?",
+      "options": [
+        "Judge",
+        "Court",
+        "Client",
+        "Case"
+      ],
+      "correct": 2,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 19,
+      "text": "Which is the correct Analogy:\nWater : Tap :: Electricity : ?",
+      "options": [
+        "Wire",
+        "Bulb",
+        "Current",
+        "Switch"
+      ],
+      "correct": 3,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 20,
+      "text": "If 'EAT' is coded as 5120, how is 'BED' coded?",
+      "options": [
+        "254",
+        "234",
+        "452",
+        "354"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 21,
+      "text": "Statement: All Pens are Pencils. All Pencils are Blue. \nConclusion: All Pens are Blue.\nIs the conclusion correct?",
+      "options": [
+        "FALSE",
+        "Uncertain",
+        "TRUE",
+        "nan"
+      ],
+      "correct": 2,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "High"
+      
+    },
+    {
+      "id": 22,
+      "text": "If A>B, B=C, D<C, then A is D.",
+      "options": [
+        "Less than",
+        "Equal to",
+        "Cannot be compared",
+        "Greater than"
+      ],
+      "correct": 3,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "High"
+      
+    },
+    {
+      "id": 23,
+      "text": "Find the Odd one out: Shirt, Trousers, Shoes, Coat",
+      "options": [
+        "Shirt",
+        "Trousers",
+        "Coat",
+        "Shoes"
+      ],
+      "correct": 3,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 24,
+      "text": "Which is the correct Analogy:\nHand : Glove :: Foot : ?",
+      "options": [
+        "Socks",
+        "Shoe",
+        "Sandal",
+        "Leg"
+      ],
+      "correct": 1,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 25,
+      "text": "Assertion (A): Leaves are green. Reason (R): Chlorophyll is green.\"",
+      "options": [
+        "Both are false",
+        "A is false, R is true",
+        "A is true R is false",
+        "A is true R is the correct explanation"
+      ],
+      "correct": 3,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 26,
+      "text": "If 'SCHOOL' is coded as 'SCHOO', how is 'COLLEGE' coded?",
+      "options": [
+        "COLLGE",
+        "COLLEG",
+        "COLLAGE",
+        "COLLGEA"
+      ],
+      "correct": 1,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 27,
+      "text": "Find the Odd one out: Gold, Silver, Iron, Water",
+      "options": [
+        "Gold",
+        "Silver",
+        "Iron",
+        "Water"
+      ],
+      "correct": 3,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 28,
+      "text": "Which is the correct Analogy:\nTree : Forest :: Brick : ?",
+      "options": [
+        "Cement",
+        "Building",
+        "Wall",
+        "House"
+      ],
+      "correct": 1,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 29,
+      "text": "Find the missing letter which comes next in the series: \nA, D, G, J, ?",
+      "options": [
+        "M",
+        "L",
+        "K",
+        "N"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 30,
+      "text": "Statement: Some tables are chairs. Some chairs are wood. \nConclusion: Some tables are wood.\nWhich is the correct option?",
+      "options": [
+        "Conclusion is true",
+        "Conclusion is false",
+        "Data is insufficient",
+        "Cannot be determined"
+      ],
+      "correct": 3,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 31,
+      "text": "What is an antonym for 'INCLUSION'?",
+      "options": [
+        "Entrance",
+        "Acceptance",
+        "Exclusion",
+        "Integration"
+      ],
+      "correct": 2,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 32,
+      "text": "Choose the correct spelling:",
+      "options": [
+        "Receave",
+        "Receive",
+        "Recieve",
+        "Receeve"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 33,
+      "text": "What is the meaning of the idiom: \"The last straw\"?",
+      "options": [
+        "The final piece of hay",
+        "The final argument",
+        "The final success",
+        "The final tolerable annoyance"
+      ],
+      "correct": 3,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 34,
+      "text": "What is the synonym for 'CALM':",
+      "options": [
+        "Excited",
+        "Noisy",
+        "Peaceful",
+        "Angry"
+      ],
+      "correct": 2,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 35,
+      "text": "Choose the word that means 'secretly':",
+      "options": [
+        "Openly",
+        "Publicly",
+        "Surreptitiously",
+        "Loudly"
+      ],
+      "correct": 2,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 36,
+      "text": "What is the antonym for 'SHARP':",
+      "options": [
+        "Pointed",
+        "Dull",
+        "Keen",
+        "Acute"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 37,
+      "text": "Which phrase best defines 'Procrastination'?",
+      "options": [
+        "Working hard",
+        "Finishing quickly",
+        "Delaying work",
+        "Working in advance"
+      ],
+      "correct": 2,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 38,
+      "text": "What is the synonym for 'ANCIENT':",
+      "options": [
+        "Modern",
+        "New",
+        "Old",
+        "Present"
+      ],
+      "correct": 2,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 39,
+      "text": "The idiom \"To turn a blind eye\" means:",
+      "options": [
+        "To close your eyes",
+        "To ignore a fault",
+        "To watch carefully",
+        "To pay attention"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 40,
+      "text": "Which word is a synonym for 'Huge'?",
+      "options": [
+        "Tiny",
+        "Small",
+        "Enormous",
+        "Little"
+      ],
+      "correct": 2,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 41,
+      "text": "Choose the grammatically correct sentence:",
+      "options": [
+        "He gone to the market.",
+        "He went to the market.",
+        "He going to the market.",
+        "He is go to the market."
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 42,
+      "text": "What is the antonym of 'SUCCESS':",
+      "options": [
+        "Victory",
+        "Achievement",
+        "Triumph",
+        "Failure"
+      ],
+      "correct": 3,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 43,
+      "text": "The word 'Benevolent' means:",
+      "options": [
+        "Strict",
+        "Mean",
+        "Kind and generous",
+        "Angry"
+      ],
+      "correct": 2,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 44,
+      "text": "What is the synonym for 'BRAVE':",
+      "options": [
+        "Timid",
+        "Fearful",
+        "Courageous",
+        "Weak"
+      ],
+      "correct": 2,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 45,
+      "text": "What is the meaning of 'Ephemeral'?",
+      "options": [
+        "Long-lasting",
+        "Permanent",
+        "Short-lived",
+        "Eternal"
+      ],
+      "correct": 2,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 46,
+      "text": "In a second-class lever where is the load placed?",
+      "options": [
+        "Next to the fulcrum",
+        "Between the fulcrum and effort",
+        "At the end",
+        "Between the effort and fulcrum"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 47,
+      "text": "If a driver gear has 20 teeth and the driven gear has 10 teeth the driven gear spins...",
+      "options": [
+        "Slower",
+        "At the same speed",
+        "Faster",
+        "In the opposite direction"
+      ],
+      "correct": 2,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 48,
+      "text": "What happens to the boiling point of water at higher altitudes?",
+      "options": [
+        "It stays the same",
+        "It increases",
+        "It decreases",
+        "It depends on temperature"
+      ],
+      "correct": 2,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 49,
+      "text": "What is the primary function of oil in a machine?",
+      "options": [
+        "To increase friction",
+        "To cool the machine",
+        "To reduce friction",
+        "To make it shiny"
+      ],
+      "correct": 2,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 50,
+      "text": "Which simple machine is a ramp an example of?",
+      "options": [
+        "Lever",
+        "Pulley",
+        "Screw",
+        "Inclined Plane"
+      ],
+      "correct": 3,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 51,
+      "text": "When you heat a metal rod its length generally...",
+      "options": [
+        "Decreases",
+        "Stays the same",
+        "Increases",
+        "Becomes irregular"
+      ],
+      "correct": 2,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 52,
+      "text": "What causes objects to fall towards the ground?",
+      "options": [
+        "Air pressure",
+        "Momentum",
+        "Centrifugal force",
+        "Gravity"
+      ],
+      "correct": 3,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 53,
+      "text": "In a hydraulic system force is transmitted through a(n)...",
+      "options": [
+        "Gear",
+        "Fluid",
+        "Solid rod",
+        "Air pump"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 54,
+      "text": "If a balloon is filled with helium why does it rise?",
+      "options": [
+        "It has more kinetic energy",
+        "It is lighter than air",
+        "Helium is warmer",
+        "It has less potential energy"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 56,
+      "text": "A hammer removes a nail by acting as which type of lever?",
+      "options": [
+        "Second class",
+        "Third class",
+        "First class",
+        "Fourth class"
+      ],
+      "correct": 2,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 57,
+      "text": "What unit is used to measure electrical current?",
+      "options": [
+        "Volt",
+        "Ohm",
+        "Watt",
+        "Ampere"
+      ],
+      "correct": 3,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 58,
+      "text": "The tension in a rope is always directed...",
+      "options": [
+        "Upwards",
+        "Downwards",
+        "Perpendicular to the rope",
+        "Along the rope"
+      ],
+      "correct": 3,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 59,
+      "text": "In which state of matter are molecules farthest apart?",
+      "options": [
+        "Liquid",
+        "Solid",
+        "Plasma",
+        "Gas"
+      ],
+      "correct": 3,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 60,
+      "text": "The wheelbarrow is an example of which class of lever?",
+      "options": [
+        "First class",
+        "Third class",
+        "Second class",
+        "None of these"
+      ],
+      "correct": 2,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 61,
+      "text": "When folded, which face is opposite 'O'?",
+      "options": [
+        "X",
+        "Z",
+        "Y",
+        "W"
+      ],
+      "correct": 2,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High",
+      "image":"Q61.png",
+      "mandatory": true
+    },
+    {
+      "id": 62,
+      "text": "Which option depicts the correct movement",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct": 3,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High",
+      "image":"Q62.png",
+      "mandatory": true
+    },
+    {
+      "id": 63,
+      "text": "What does the top view of a cone look like?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct": 1,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High",
+      "image":"Q63.png",
+      "mandatory": true
+    },
+    {
+      "id": 65,
+      "text": "How many cuts when unfolded?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "correct": 2,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High",
+      "image":"Q65.png",
+      "mandatory": true
+    },
+    {
+      "id": 66,
+      "text": "If rotated 270 degrees clockwise where does the arrow point?",
+      "options": [
+        "North",
+        "West",
+        "South",
+        "East"
+      ],
+      "correct": 1,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High",
+      "image":"Q66.png",
+      "mandatory": true
+    },
+    {
+      "id": 67,
+      "text": "How many faces does a triangular prism have?",
+      "options": [
+        "4",
+        "6",
+        "5",
+        "7"
+      ],
+      "correct": 2,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 68,
+      "text": "What is the next shape?",
+      "options": [
+        "Circle",
+        "Triangle",
+        "Square",
+        "Pentagon"
+      ],
+      "correct": 3,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High",
+      "image":"Q68.png",
+      "mandatory": true
+    },
+    {
+      "id": 69,
+      "text": "Which option is an identical copy (not rotated/mirrored) of a complex pattern P?]",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct": 3,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High",
+      "image":"Q69.png",
+      "mandatory": true
+    },
+    {
+      "id": 70,
+      "text": "Which 2D shapes combined can form a cylinder?",
+      "options": [
+        "2 Triangles and 1 Rectangle",
+        "1 Square and 2 Triangles",
+        "1 Rectangle and 2 Circles",
+        "1 Square and 1 Circle"
+      ],
+      "correct": 2,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 73,
+      "text": "Which compass direction is exactly 135 degrees clockwise from North?",
+      "options": [
+        "South-East",
+        "South-West",
+        "North-West",
+        "East"
+      ],
+      "correct": 0,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 74,
+      "text": "What is the angle between the hour and minute hand?",
+      "options": [
+        "180 degrees",
+        "45 degrees",
+        "90 degrees",
+        "60 degrees"
+      ],
+      "correct": 2,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High",
+      "image":"Q74.png",
+      "mandatory": true
+    },
+    {
+      "id": 76,
+      "text": "Series: 1, 3, 6, 10, 15, ?",
+      "options": [
+        "20",
+        "22",
+        "21",
+        "24"
+      ],
+      "correct": 2,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 77,
+      "text": "Series: 10, 20, 40, 80, ?",
+      "options": [
+        "120",
+        "180",
+        "160",
+        "140"
+      ],
+      "correct": 2,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 78,
+      "text": "Series: B, E, H, K, ?",
+      "options": [
+        "M",
+        "N",
+        "L",
+        "P"
+      ],
+      "correct": 1,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 79,
+      "text": "Series: 9, 16, 25, 36, ?",
+      "options": [
+        "48",
+        "50",
+        "49",
+        "45"
+      ],
+      "correct": 2,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 80,
+      "text": "Series: Z, X, V, T, ?",
+      "options": [
+        "R",
+        "S",
+        "Q",
+        "U"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 81,
+      "text": "Next figure has?",
+      "options": [
+        "6 dots",
+        "8 dots",
+        "7 dots",
+        "9 dots"
+      ],
+      "correct": 2,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High",
+      "image":"Q81.png",
+      "mandatory": true
+    },
+    {
+      "id": 82,
+      "text": "Next movement is?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct": 2,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High",
+      "image":"Q82.png",
+      "mandatory": true
+    },
+    {
+      "id": 83,
+      "text": "If 'Square' is coded as 4, 'Triangle' as 3, what is 'Pentagon'?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 84,
+      "text": "In a code, P is R, Q is T, R is V. What is S?",
+      "options": [
+        "T",
+        "U",
+        "W",
+        "V"
+      ],
+      "correct": 2,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 85,
+      "text": "Series: 1^2, 2^2, 3^2, 4^2, ?",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "16"
+      ],
+      "correct": 1,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 86,
+      "text": "Which is the Find the Odd one out: 14, 21, 28, 30, 35?",
+      "options": [
+        "14",
+        "21",
+        "35",
+        "30"
+      ],
+      "correct": 3,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 87,
+      "text": "Series: 1/2, 1/4, 1/8, 1/16, ?",
+      "options": [
+        "Jan-24",
+        "Jan-32",
+        "Jan-20",
+        "Jan-28"
+      ],
+      "correct": 1,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 88,
+      "text": "Next arrow?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct": 2,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High",
+      "image":"Q88.png",
+      "mandatory": true
+    },
+    {
+      "id": 89,
+      "text": "Series: J, A, S, O, N, ? (Hint: First letters of months)",
+      "options": [
+        "D",
+        "M",
+        "F",
+        "A"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 90,
+      "text": "If 2x3=5, 3x4=7, then 4x5=?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correct": 1,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 91,
+      "text": "Find the exact match of: \nA37X-99",
+      "options": [
+        "A37X-98",
+        "A37X-99",
+        "A37Y-99",
+        "A37X-999"
+      ],
+      "correct": 1,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 92,
+      "text": "Count the number of 'C's: \nABBC C D C DE",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "5"
+      ],
+      "correct": 2,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 93,
+      "text": "Which word is exactly identical to 'GOVERNMENT'?",
+      "options": [
+        "Goverment",
+        "Government",
+        "Govrnment",
+        "Government"
+      ],
+      "correct": 1,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 94,
+      "text": "Which date is different (DD/MM)? \n05/10/2023, \n05/10/2023, \n10/05/2023, \n05/10/2023 ",
+      "options": [
+        "########",
+        "########",
+        "10-05-2023",
+        "########"
+      ],
+      "correct": 2,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 95,
+      "text": "Find the only error in the below sequence:\n A B C D E F F G H I J",
+      "options": [
+        "A",
+        "C",
+        "F",
+        "G"
+      ],
+      "correct": 2,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 96,
+      "text": "Match exactly: 8844 - B52",
+      "options": [
+        "8844 - B52",
+        "8448 - B52",
+        "8844 - D52",
+        "8844 - B25"
+      ],
+      "correct": 0,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 97,
+      "text": "Is the number sequence correct? 1, 2, 3, 4, 5, 6, 7",
+      "options": [
+        "No",
+        "Yes",
+        "Maybe",
+        "Incorrect"
+      ],
+      "correct": 1,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 98,
+      "text": "Find the identical pair: X Y Z / X Y Z",
+      "options": [
+        "X Z Y / X Y Z",
+        "X Y Z / X Y Z",
+        "X Y Z / Y Z X",
+        "X Y X / X Y Z"
+      ],
+      "correct": 1,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 99,
+      "text": "Select the exact match: \nRaju Sharma",
+      "options": [
+        "Raju Verma",
+        "Raju Sharma",
+        "Raju sharma",
+        "Raju Shrma"
+      ],
+      "correct": 1,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 100,
+      "text": "Which sequence contains an error? \na b c d e f,\ng h i j k l,\nm n o p q r",
+      "options": [
+        "g h i j k l",
+        "a b c d e f",
+        "m n o p q r",
+        "No error"
+      ],
+      "correct": 3,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 101,
+      "text": "If a dozen eggs cost \u20b960 what is the cost of one egg?",
+      "options": [
+        "\u20b9 5",
+        "\u20b9 6",
+        "\u20b9 4",
+        "\u20b9 10"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 102,
+      "text": "Simplify: 2((3 + 32) + 1)",
+      "options": [
+        "72",
+        "36",
+        "54",
+        "108"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 103,
+      "text": "Find the average of 10 20 and 30.",
+      "options": [
+        "20",
+        "25",
+        "15",
+        "30"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 104,
+      "text": "A car travels 180km in 3 hours. What is its speed?",
+      "options": [
+        "50 km/h",
+        "60 km/h",
+        "70 km/h",
+        "45 km/h"
+      ],
+      "correct": 1,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 105,
+      "text": "The sum of two numbers is 25 and their difference is 5. Find the numbers.",
+      "options": [
+        "15 and 10",
+        "20 and 5",
+        "12 and 13",
+        "18 and 7"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 106,
+      "text": "Convert 15% to a fraction.",
+      "options": [
+        "3/20",
+        "1/5",
+        "3/10",
+        "1/15"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 107,
+      "text": "Find the volume of a cube with side 4cm.",
+      "options": [
+        "16 cm3",
+        "64 cm3",
+        "32 cm3",
+        "48 cm3"
+      ],
+      "correct": 1,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 108,
+      "text": "If 5 workers can build a wall in 4 days how many days for 10 workers?",
+      "options": [
+        "2 days",
+        "8 days",
+        "1 day",
+        "4 days"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 109,
+      "text": "Solve for y: 3y + 5 = 20",
+      "options": [
+        "5",
+        "15",
+        "4",
+        "6"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 110,
+      "text": "What is the square root of 144?",
+      "options": [
+        "10",
+        "14",
+        "12",
+        "16"
+      ],
+      "correct": 2,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 111,
+      "text": "What is the perimeter of a square with area 100 m2?",
+      "options": [
+        "20m",
+        "40m",
+        "10m",
+        "100m"
+      ],
+      "correct": 1,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 112,
+      "text": "Find the LCM of 12 and 18.",
+      "options": [
+        "36",
+        "24",
+        "48",
+        "72"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 113,
+      "text": "Subtract 4.55 from 10.",
+      "options": [
+        "5.45",
+        "6.45",
+        "5.55",
+        "4.45"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 114,
+      "text": "If a shirt is \u20b9500 after a 50% discount what was the original price?",
+      "options": [
+        "\u20b9 1,000",
+        "\u20b9 750",
+        "\u20b9 600",
+        "\u20b9 800"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 115,
+      "text": "Calculate the area of a circle with radius 7cm (use pi = 22/7)",
+      "options": [
+        "154 cm2",
+        "44 cm2",
+        "144 cm2",
+        "49 cm2"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 116,
+      "text": "Find the Odd one out: Monday Tuesday January Friday",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "January",
+        "Friday"
+      ],
+      "correct": 2,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 117,
+      "text": "Which is the correct Analogy: \nBook : Read :: Piano : ?",
+      "options": [
+        "Listen",
+        "Write",
+        "Play",
+        "Sing"
+      ],
+      "correct": 2,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 118,
+      "text": "If 'RED' is 27 how much is 'BLUE'?",
+      "options": [
+        "40",
+        "36",
+        "42",
+        "38"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 119,
+      "text": "Pointing to a man a woman said \"His mother is the only daughter of my mother.\" What is the Relationship of the woman with the man?",
+      "options": [
+        "Mother",
+        "Sister",
+        "Daughter",
+        "Grandmother"
+      ],
+      "correct": 1,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 120,
+      "text": "Which word among the following comes second in the dictionary?",
+      "options": [
+        "Apple",
+        "Apply",
+        "Ape",
+        "April"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 121,
+      "text": "Complete the series: 2, 4, 8, 16, ?",
+      "options": [
+        "32",
+        "24",
+        "20",
+        "64"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 122,
+      "text": "If 'NORTH' becomes 'SOUTH' then 'EAST' becomes?",
+      "options": [
+        "WEST",
+        "NORTH",
+        "SOUTH",
+        "UP"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 123,
+      "text": "Find the Odd one out: Table, Chair, Sofa, Television",
+      "options": [
+        "Table",
+        "Chair",
+        "Sofa",
+        "Television"
+      ],
+      "correct": 3,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 124,
+      "text": "Which is the correct Analogy:\nBird : Wing :: Fish : ?",
+      "options": [
+        "Tail",
+        "Scale",
+        "Fin",
+        "Water"
+      ],
+      "correct": 2,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 125,
+      "text": "Statements: All dogs are cats. All cats are lions. \nConclusion: All dogs are lions.\nIs the conclusion correct?",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "Uncertain",
+        "nan"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 126,
+      "text": "If 1=5 2=25 3=125 then 4=?",
+      "options": [
+        "625",
+        "500",
+        "250",
+        "100"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 127,
+      "text": "Find the Odd one out: Apple Banana Potato Grape",
+      "options": [
+        "Apple",
+        "Banana",
+        "Potato",
+        "Grape"
+      ],
+      "correct": 2,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 128,
+      "text": "Which is the correct Analogy: \nPencil : Write :: Knife : ?",
+      "options": [
+        "Cut",
+        "Eat",
+        "Sharp",
+        "Cook"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 129,
+      "text": "If 'MIND' is 'KGLB' then 'DIAGRAM' is?",
+      "options": [
+        "BGYEPYK",
+        "BGYEPYL",
+        "BGYO PYK",
+        "BGYEOYK"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 130,
+      "text": "Find the missing number: 5, 10, 15, ?, 25",
+      "options": [
+        "18",
+        "20",
+        "22",
+        "24"
+      ],
+      "correct": 1,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 131,
+      "text": "Which is a synonym for 'ACCURATE':",
+      "options": [
+        "Wrong",
+        "Precise",
+        "Fast",
+        "Large"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 132,
+      "text": "Antonym for 'ARROGANT':",
+      "options": [
+        "Humble",
+        "Proud",
+        "Loud",
+        "Mean"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 133,
+      "text": "Choose the correct spelling:",
+      "options": [
+        "Committee",
+        "Comittee",
+        "Commitee",
+        "Comitee"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 134,
+      "text": "Meaning of 'In a nutshell':",
+      "options": [
+        "Very slowly",
+        "In a container",
+        "In a few words",
+        "Very loudly"
+      ],
+      "correct": 2,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 135,
+      "text": "Which is a synonym for 'GENEROUS':",
+      "options": [
+        "Kind",
+        "Greedy",
+        "Selfish",
+        "Cruel"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 136,
+      "text": "Antonym for 'ARTIFICIAL':",
+      "options": [
+        "Fake",
+        "Natural",
+        "New",
+        "Plastic"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 137,
+      "text": "Which of the following is a noun?",
+      "options": [
+        "Run",
+        "Beautiful",
+        "Happiness",
+        "Quickly"
+      ],
+      "correct": 2,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 138,
+      "text": "Meaning of 'A piece of cake':",
+      "options": [
+        "Very hard",
+        "Very easy",
+        "Sweet food",
+        "A small portion"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 139,
+      "text": "Which is a synonym for 'ANNUAL':",
+      "options": [
+        "Weekly",
+        "Monthly",
+        "Yearly",
+        "Daily"
+      ],
+      "correct": 2,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 140,
+      "text": "Choose the correct preposition: He is afraid ___ dogs.",
+      "options": [
+        "of",
+        "with",
+        "at",
+        "from"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 141,
+      "text": "What is the antonym for 'EXPAND':",
+      "options": [
+        "Grow",
+        "Shrink",
+        "Large",
+        "Wide"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 142,
+      "text": "Identify the adjective: The blue sky looks beautiful.",
+      "options": [
+        "Sky",
+        "Looks",
+        "Blue",
+        "The"
+      ],
+      "correct": 2,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 143,
+      "text": "Which is a synonym for 'FATIGUE':",
+      "options": [
+        "Strength",
+        "Tiredness",
+        "Energy",
+        "Health"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 144,
+      "text": "What is a 'Synonym'?",
+      "options": [
+        "Opposite word",
+        "Similar word",
+        "Rhyming word",
+        "Long word"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 145,
+      "text": "What is the Antonym for 'ABOVE':",
+      "options": [
+        "Over",
+        "Under",
+        "Beside",
+        "Near"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 146,
+      "text": "A pair of scissors is which type of lever?",
+      "options": [
+        "First class",
+        "Second class",
+        "Third class",
+        "Not a lever"
+      ],
+      "correct": 0,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 147,
+      "text": "Which gear rotates faster: Large gear or Small gear?",
+      "options": [
+        "Large",
+        "Small",
+        "Same speed",
+        "Depends on teeth"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 148,
+      "text": "What happens to pressure as area increases (for same force)?",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Stays same",
+        "Fluctuates"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 149,
+      "text": "Which material is a good conductor of electricity?",
+      "options": [
+        "Rubber",
+        "Wood",
+        "Copper",
+        "Plastic"
+      ],
+      "correct": 2,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 150,
+      "text": "What is the purpose of a pulley?",
+      "options": [
+        "To increase weight",
+        "To change direction of force",
+        "To stop motion",
+        "To heat up"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 151,
+      "text": "If you pull a rope on a fixed pulley with 10kg force the load lifted is?",
+      "options": [
+        "5kg",
+        "20kg",
+        "10kg",
+        "15kg"
+      ],
+      "correct": 2,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 152,
+      "text": "Which law explains why you lean back when a bus starts?",
+      "options": [
+        "Newton's 1st Law",
+        "Newton's 2nd Law",
+        "Newton's 3rd Law",
+        "Law of Gravity"
+      ],
+      "correct": 0,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 153,
+      "text": "What type of energy is stored in a compressed spring?",
+      "options": [
+        "Kinetic",
+        "Potential",
+        "Thermal",
+        "Chemical"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 154,
+      "text": "In a parallel circuit if one bulb breaks the others...",
+      "options": [
+        "Turn off",
+        "Stay on",
+        "Get brighter",
+        "Explode"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 155,
+      "text": "The point on which a lever pivots is called?",
+      "options": [
+        "Load",
+        "Effort",
+        "Fulcrum",
+        "Arm"
+      ],
+      "correct": 2,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 156,
+      "text": "What prevents a car from sliding on a road?",
+      "options": [
+        "Gravity",
+        "Friction",
+        "Speed",
+        "Weight"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 157,
+      "text": "A screw is actually an inclined plane wrapped around a?",
+      "options": [
+        "Wheel",
+        "Cylinder",
+        "Box",
+        "Point"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 158,
+      "text": "Air pressure is measured with a?",
+      "options": [
+        "Thermometer",
+        "Barometer",
+        "Speedometer",
+        "Hygrometer"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 159,
+      "text": "Which surface has the least friction?",
+      "options": [
+        "Sandpaper",
+        "Ice",
+        "Concrete",
+        "Grass"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 160,
+      "text": "Power is defined as the rate of doing?",
+      "options": [
+        "Heat",
+        "Work",
+        "Speed",
+        "Force"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 161,
+      "text": "How many edges does a cube have?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "6"
+      ],
+      "correct": 2,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 163,
+      "text": "How many small cubes(1x1x1) make a 3x3x3 large cube?",
+      "options": [
+        "9",
+        "18",
+        "27",
+        "81"
+      ],
+      "correct": 2,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 164,
+      "text": "Imagine a cube shaped box which does not have the top lid. How many faces does it have?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "correct": 1,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 165,
+      "text": "A person walks North then turns 90 degrees Right. Which way is he facing now?",
+      "options": [
+        "West",
+        "South",
+        "East",
+        "North"
+      ],
+      "correct": 2,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 166,
+      "text": "What is an shape with 5 sides called?",
+      "options": [
+        "Hexagon",
+        "Pentagon",
+        "Octagon",
+        "Quadrilateral"
+      ],
+      "correct": 1,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 167,
+      "text": "Which shape has 4 equal sides and 90 degree angles?",
+      "options": [
+        "Rhombus",
+        "Rectangle",
+        "Square",
+        "Parallelogram"
+      ],
+      "correct": 2,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 168,
+      "text": "How many vertices does a pyramid with square base have?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "correct": 1,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 169,
+      "text": "If you look at a cylinder from the side what shape do you see?",
+      "options": [
+        "Circle",
+        "Rectangle",
+        "Triangle",
+        "Oval"
+      ],
+      "correct": 1,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 171,
+      "text": "What is the sum of angles in a triangle?",
+      "options": [
+        "90",
+        "180",
+        "360",
+        "270"
+      ],
+      "correct": 1,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 172,
+      "text": "A mirror placed on the right of letter 'P' reflects as?",
+      "options": [
+        "q",
+        "b",
+        "d",
+        "p"
+      ],
+      "correct": 0,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 173,
+      "text": "A line through the center of a circle is the?",
+      "options": [
+        "Radius",
+        "Diameter",
+        "Circumference",
+        "Tangent"
+      ],
+      "correct": 1,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 174,
+      "text": "How many degrees are in a full circle?",
+      "options": [
+        "180",
+        "90",
+        "360",
+        "270"
+      ],
+      "correct": 2,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 176,
+      "text": "Complete: 100, 90, 80, 70, ?",
+      "options": [
+        "60",
+        "50",
+        "40",
+        "30"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 177,
+      "text": "Series: A, C, E, G, ?",
+      "options": [
+        "I",
+        "H",
+        "J",
+        "K"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 178,
+      "text": "Find the Odd one out: 2, 4, 6, 9, 10",
+      "options": [
+        "2",
+        "6",
+        "9",
+        "10"
+      ],
+      "correct": 2,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 179,
+      "text": "If 1+1=2 and 2+2=4 then 3+3=?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct": 1,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 180,
+      "text": "Series: 11, 22, 33, 44, ?",
+      "options": [
+        "55",
+        "66",
+        "45",
+        "50"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 181,
+      "text": "Complete the pattern: \u2b06\ufe0f \u27a1\ufe0f \u2b07\ufe0f ?",
+      "options": [
+        "\u2b05\ufe0f",
+        "\u2197\ufe0f",
+        "\u2196\ufe0f",
+        "\u2195\ufe0f"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 182,
+      "text": "If 'CAT' is 'DBU' then 'DOG' is?",
+      "options": [
+        "EPH",
+        "EOH",
+        "FPH",
+        "ENH"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 183,
+      "text": "Series: 5, 10, 20, 40, ?",
+      "options": [
+        "80",
+        "60",
+        "100",
+        "70"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 184,
+      "text": "Find the Odd one out: Square Triangle Circle Blue",
+      "options": [
+        "Square",
+        "Triangle",
+        "Circle",
+        "Blue"
+      ],
+      "correct": 3,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 185,
+      "text": "If A=1 B=2 then C+D=?",
+      "options": [
+        "7",
+        "5",
+        "8",
+        "6"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 186,
+      "text": "Series: Z, Y, X, W, ?",
+      "options": [
+        "V",
+        "U",
+        "T",
+        "S"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 187,
+      "text": "Complete: 2, 3, 5, 7, 11, ?",
+      "options": [
+        "13",
+        "12",
+        "14",
+        "15"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 188,
+      "text": "If 'SUN' is 'TVO' then 'MOON' is?",
+      "options": [
+        "NPPO",
+        "NPPN",
+        "NOOP",
+        "NPQP"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 189,
+      "text": "Series: 1 4 9 16 ?",
+      "options": [
+        "25",
+        "20",
+        "30",
+        "36"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 190,
+      "text": "Find the Odd one out: Red; Green; Large; Yellow",
+      "options": [
+        "Red",
+        "Green",
+        "Large",
+        "Yellow"
+      ],
+      "correct": 2,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 191,
+      "text": "Find the exact match: 98765",
+      "options": [
+        "98756",
+        "98765",
+        "97865",
+        "98675"
+      ],
+      "correct": 1,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 192,
+      "text": "Identify the error: \n1. Apple\n2. Apple\n3. Ap ple \n4. Apple",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 2,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 193,
+      "text": "Count 'S': MISSISSIPPI",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 1,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 194,
+      "text": "Exact match for: #@!&",
+      "options": [
+        "#@!&",
+        "#@&!",
+        "#@!%",
+        "#@!"
+      ],
+      "correct": 0,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 195,
+      "text": "Which is different? \n 1.Blue \n 2.Blue \n 3.Blew\n 4.Blue",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 2,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 196,
+      "text": "Identify the identical pair: 101/101",
+      "options": [
+        "101/110",
+        "101/101",
+        "010/101",
+        "111/101"
+      ],
+      "correct": 1,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 197,
+      "text": "Match: \"New Delhi\"",
+      "options": [
+        "New Dehli",
+        "New Delhi",
+        "New delhi",
+        "New Delhi"
+      ],
+      "correct": 1,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 198,
+      "text": "Find the unique number: \n1. 444 \n2. 444 \n3. 445 \n4. 444",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 2,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 199,
+      "text": "Count the number of zeros: 10010010",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 2,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 200,
+      "text": "Match exactly: XYZ-789",
+      "options": [
+        "XYZ-789",
+        "XYZ-798",
+        "XYZ-879",
+        "XYY-789"
+      ],
+      "correct": 0,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 201,
+      "text": "What is the value of 7 x 8 - 5?",
+      "options": [
+        "51",
+        "56",
+        "49",
+        "61"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 202,
+      "text": "If a train covers 300km in 5 hours what is its speed?",
+      "options": [
+        "50 km/h",
+        "60 km/h",
+        "55 km/h",
+        "65 km/h"
+      ],
+      "correct": 1,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 203,
+      "text": "Which is larger: 0.5 or 0.05?",
+      "options": [
+        "0.5",
+        "0.05",
+        "They are equal",
+        "Cannot tell"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 204,
+      "text": "Solve: 100 / (10 + 15)",
+      "options": [
+        "5",
+        "4",
+        "10",
+        "25"
+      ],
+      "correct": 1,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 205,
+      "text": "Find the median of: 3, 7, 9, 12, 15",
+      "options": [
+        "7",
+        "12",
+        "9",
+        "10"
+      ],
+      "correct": 2,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 206,
+      "text": "If x/4 = 12 then x = ?",
+      "options": [
+        "3",
+        "48",
+        "16",
+        "44"
+      ],
+      "correct": 1,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 207,
+      "text": "What is the area of a triangle with base 10cm and height 5cm?",
+      "options": [
+        "50 cm2",
+        "25 cm2",
+        "15 cm2",
+        "100 cm2"
+      ],
+      "correct": 1,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 208,
+      "text": "A person buys a toy for \u20b9200 and sells it for \u20b9250. Profit %?",
+      "options": [
+        "20%",
+        "50%",
+        "25%",
+        "10%"
+      ],
+      "correct": 2,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 209,
+      "text": "If 3x = 27 what is x?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "correct": 1,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 210,
+      "text": "Round 456 to the nearest hundred.",
+      "options": [
+        "400",
+        "450",
+        "500",
+        "460"
+      ],
+      "correct": 2,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 211,
+      "text": "What is the sum of the first 5 prime numbers?",
+      "options": [
+        "28",
+        "15",
+        "11",
+        "18"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 212,
+      "text": "Calculate the circumference of a circle with diameter 14cm. (Use pi = 22/7)",
+      "options": [
+        "44 cm",
+        "88 cm",
+        "22 cm",
+        "154 cm"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 213,
+      "text": "How many minutes are there in 2.5 hours?",
+      "options": [
+        "120",
+        "150",
+        "180",
+        "100"
+      ],
+      "correct": 1,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 214,
+      "text": "If 3 apples cost \u20b945, how much will 7 apples cost?",
+      "options": [
+        "\u20b9 105",
+        "\u20b9 90",
+        "\u20b9 115",
+        "\u20b9 100"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 215,
+      "text": "The price of a phone decreased from \u20b910000 to \u20b98000. Decrease %?",
+      "options": [
+        "20%",
+        "25%",
+        "15%",
+        "10%"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 216,
+      "text": "Find the Odd one out: \nEar; Eye; Nose; Hand",
+      "options": [
+        "Ear",
+        "Eye",
+        "Nose",
+        "Hand"
+      ],
+      "correct": 3,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 217,
+      "text": "Which is the correct Analogy: \nRain : Umbrella :: Sun : ?",
+      "options": [
+        "Sunglasses",
+        "Cloud",
+        "Water",
+        "Moon"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 218,
+      "text": "If 'DOG' is 26 'CAT' is?",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 219,
+      "text": "A is B's sister. C is B's mother. How is C related to A?",
+      "options": [
+        "Aunt",
+        "Mother",
+        "Grandmother",
+        "Daughter"
+      ],
+      "correct": 1,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 220,
+      "text": "Arrange the following in correct order: \n1.Seed \n2.Fruit \n3.Plant \n4.Flower",
+      "options": [
+        "1-3-4-2",
+        "1-2-3-4",
+        "1-4-3-2",
+        "3-1-4-2"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 221,
+      "text": "Assertion: We feel cool under a tree. Reason: Trees release water vapor",
+      "options": [
+        "Both True & R explains A",
+        "Both True but R does not explain A",
+        "A is True R is False",
+        "Both False"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 222,
+      "text": "If 'SOUTH-EAST' becomes 'NORTH' then 'NORTH-EAST' becomes?",
+      "options": [
+        "WEST",
+        "SOUTH",
+        "EAST",
+        "NORTH-WEST"
+      ],
+      "correct": 1,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 223,
+      "text": "Find the Odd one out:\nJupiter; Mars; Venus; Moon",
+      "options": [
+        "Jupiter",
+        "Mars",
+        "Venus",
+        "Moon"
+      ],
+      "correct": 3,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 224,
+      "text": "Which is the correct Analogy: \nOcean : Water :: Desert : ?",
+      "options": [
+        "Sand",
+        "Oasis",
+        "Camel",
+        "Heat"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 225,
+      "text": "Assertion: Gold does not rust. Reason: It is a noble metal",
+      "options": [
+        "Both True & R explains A",
+        "Both False",
+        "A is True R is False",
+        "A is False R is True"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 226,
+      "text": "If A=2 B=4 then C=?",
+      "options": [
+        "6",
+        "5",
+        "3",
+        "8"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 227,
+      "text": "Find the Odd one out: \nCar; Bus; Cycle; Boat",
+      "options": [
+        "Car",
+        "Bus",
+        "Cycle",
+        "Boat"
+      ],
+      "correct": 3,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 228,
+      "text": "Which is the correct Analogy: \nPaper : Tree :: Glass : ?",
+      "options": [
+        "Water",
+        "Sand",
+        "Wood",
+        "Stone"
+      ],
+      "correct": 1,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 229,
+      "text": "If 'BOMBAY' is 'CNNBCZ' then 'DELHI' is?",
+      "options": [
+        "EFMIJ",
+        "EFMIH",
+        "EGMJI",
+        "EFMIK"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 230,
+      "text": "What is the next number in the series: \n100, 95, 90, 85, ?",
+      "options": [
+        "80",
+        "75",
+        "70",
+        "82"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 231,
+      "text": "Which of the following is a synonym for 'FAST':",
+      "options": [
+        "Quick",
+        "Slow",
+        "Steady",
+        "Heavy"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 232,
+      "text": "Antonym for 'CRUEL':",
+      "options": [
+        "Kind",
+        "Mean",
+        "Evil",
+        "Angry"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 233,
+      "text": "Choose the correct spelling:",
+      "options": [
+        "Knowledge",
+        "Knowlege",
+        "Knoledge",
+        "Knowledg"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 234,
+      "text": "Meaning of 'Call it a day':",
+      "options": [
+        "Start working",
+        "Stop working",
+        "Go to sleep",
+        "Wake up"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 235,
+      "text": "Which of the following is a synonym for 'SMALL':",
+      "options": [
+        "Tiny",
+        "Large",
+        "Huge",
+        "Tall"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 236,
+      "text": "Antonym for 'VICTORY':",
+      "options": [
+        "Win",
+        "Success",
+        "Loss",
+        "Triumph"
+      ],
+      "correct": 2,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 237,
+      "text": "Which of the following is a verb?",
+      "options": [
+        "Book",
+        "Run",
+        "Happy",
+        "Blue"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 238,
+      "text": "Meaning of 'Under the weather':",
+      "options": [
+        "Feeling happy",
+        "Feeling sick",
+        "Feeling hot",
+        "Feeling cold"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 239,
+      "text": "Which of the following is a synonym for 'START':",
+      "options": [
+        "End",
+        "Begin",
+        "Stop",
+        "Close"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 240,
+      "text": "Preposition: The cat is ___ the table.",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "for"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 241,
+      "text": "Which is the Antonym of 'EMPTY':",
+      "options": [
+        "Full",
+        "Void",
+        "Blank",
+        "Hollow"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 242,
+      "text": "Identify the pronoun in the following sentence:\nShe went to the park.",
+      "options": [
+        "She",
+        "Went",
+        "Park",
+        "The"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 243,
+      "text": "Which of the following is a synonym for 'QUIET':",
+      "options": [
+        "Loud",
+        "Silent",
+        "Noisy",
+        "Talkative"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 244,
+      "text": "What is an 'Antonym'?",
+      "options": [
+        "Same meaning",
+        "Opposite meaning",
+        "Rhyming word",
+        "Suffix"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 245,
+      "text": "Which is an antonym of 'RICH':",
+      "options": [
+        "Wealthy",
+        "Poor",
+        "Money",
+        "Luxury"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 246,
+      "text": "A fishing rod is which type of lever?",
+      "options": [
+        "First class",
+        "Second class",
+        "Third class",
+        "nan"
+      ],
+      "correct": 2,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 247,
+      "text": "If gear A turns clockwise, then a connected gear B will turn in which direction?",
+      "options": [
+        "Clockwise",
+        "Counter-clockwise",
+        "Doesn't move",
+        "Upward"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 248,
+      "text": "Density is defined as?",
+      "options": [
+        "Mass/Volume",
+        "Volume/Mass",
+        "Mass x Volume",
+        "Force/Area"
+      ],
+      "correct": 0,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 249,
+      "text": "Which of these is a heat insulator?",
+      "options": [
+        "Iron",
+        "Copper",
+        "Wood",
+        "Aluminum"
+      ],
+      "correct": 2,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 250,
+      "text": "What happens to the speed of a falling object (in vaccum)?",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Stays same",
+        "Zero"
+      ],
+      "correct": 0,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 251,
+      "text": "A wedge is used to?",
+      "options": [
+        "Lift objects",
+        "Split objects",
+        "Rotate objects",
+        "Cool objects"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 252,
+      "text": "Sound travels fastest in?",
+      "options": [
+        "Solids",
+        "Liquids",
+        "Gases",
+        "Vacuum"
+      ],
+      "correct": 0,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 253,
+      "text": "Which unit measures resistance?",
+      "options": [
+        "Volt",
+        "Ampere",
+        "Ohm",
+        "Watt"
+      ],
+      "correct": 2,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 254,
+      "text": "A nutcracker is which class of lever?",
+      "options": [
+        "First",
+        "Second",
+        "Third",
+        "Fourth"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 255,
+      "text": "What is the function of a fuse?",
+      "options": [
+        "Increase current",
+        "Break the circuit",
+        "Store charge",
+        "Generate power"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 256,
+      "text": "Kinetic energy depends on mass and?",
+      "options": [
+        "Height",
+        "Gravity",
+        "Velocity",
+        "Time"
+      ],
+      "correct": 2,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 257,
+      "text": "Which color absorbs the most heat?",
+      "options": [
+        "White",
+        "Blue",
+        "Yellow",
+        "Black"
+      ],
+      "correct": 3,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 258,
+      "text": "In a series circuit if one bulb breaks?",
+      "options": [
+        "All stay on",
+        "All go out",
+        "One gets brighter",
+        "Nothing happens"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 259,
+      "text": "Pascal's Law is related to?",
+      "options": [
+        "Gravity",
+        "Fluid Pressure",
+        "Light",
+        "Electricity"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 260,
+      "text": "What does a voltmeter measure?",
+      "options": [
+        "Current",
+        "Resistance",
+        "Potential Difference",
+        "Power"
+      ],
+      "correct": 2,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 261,
+      "text": "How many faces does a sphere have?",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "4"
+      ],
+      "correct": 0,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 262,
+      "text": "A square is rotaded by 45 degree. What is it often called?",
+      "options": [
+        "Rhombus",
+        "Triangle",
+        "Pentagon",
+        "Square"
+      ],
+      "correct": 3,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 263,
+      "text": "How many corners (vertices) does a cube have?",
+      "options": [
+        "6",
+        "8",
+        "12",
+        "4"
+      ],
+      "correct": 1,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 264,
+      "text": "If you slice a cylinder vertically what is the cross-section?",
+      "options": [
+        "Circle",
+        "Rectangle",
+        "Triangle",
+        "Square"
+      ],
+      "correct": 1,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 265,
+      "text": "A man faces West and turns 180 degrees. Which way now?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "correct": 2,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 266,
+      "text": "How many sides does an octagon have?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "10"
+      ],
+      "correct": 2,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 267,
+      "text": "The internal angle of an equilateral triangle is?",
+      "options": [
+        "45",
+        "60",
+        "90",
+        "120"
+      ],
+      "correct": 1,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 268,
+      "text": "How many dimensions does a point have?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "correct": 3,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 269,
+      "text": "What shape is the base of a cone?",
+      "options": [
+        "Square",
+        "Triangle",
+        "Circle",
+        "Hexagon"
+      ],
+      "correct": 2,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 271,
+      "text": "Which is the correct alternative. Parallel lines...",
+      "options": [
+        "Intersect",
+        "Never intersect",
+        "Are perpendicular",
+        "Are short"
+      ],
+      "correct": 1,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 272,
+      "text": "A mirror image of '3' looks like?",
+      "options": [
+        "E",
+        "M",
+        "W",
+        "S"
+      ],
+      "correct": 0,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 273,
+      "text": "A radius is ___ of the diameter.",
+      "options": [
+        "Half",
+        "Double",
+        "Equal",
+        "Triple"
+      ],
+      "correct": 0,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 274,
+      "text": "A right angle is?",
+      "options": [
+        "45 deg",
+        "90 deg",
+        "180 deg",
+        "360 deg"
+      ],
+      "correct": 1,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 276,
+      "text": "Series: 5, 15, 45, ?",
+      "options": [
+        "135",
+        "90",
+        "60",
+        "100"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 277,
+      "text": "Series: AB, BC, CD, ?",
+      "options": [
+        "DE",
+        "EF",
+        "FG",
+        "GH"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 278,
+      "text": "Find the Odd one out: 3, 5, 7, 9, 11",
+      "options": [
+        "3",
+        "7",
+        "9",
+        "11"
+      ],
+      "correct": 2,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 279,
+      "text": "If 10-2=8 then 20-4=?",
+      "options": [
+        "16",
+        "12",
+        "18",
+        "14"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 280,
+      "text": "Series: 2 4 16 256 ?",
+      "options": [
+        "65536",
+        "1024",
+        "512",
+        "128"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 281,
+      "text": "Complete: \ud83c\udf11 \ud83c\udf13 \ud83c\udf15 ?",
+      "options": [
+        "\ud83c\udf17",
+        "\ud83c\udf11",
+        "\ud83c\udf15",
+        "\ud83c\udf13"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 282,
+      "text": "If 'PEN' is 'QFO' then 'GUM' is?",
+      "options": [
+        "HVN",
+        "ITN",
+        "HVO",
+        "FUM"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 283,
+      "text": "Series: 81, 27, 9, ?",
+      "options": [
+        "3",
+        "1",
+        "0",
+        "6"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 284,
+      "text": "Find the Odd one out: Dog; Cat; Cow; Car",
+      "options": [
+        "Dog",
+        "Cat",
+        "Cow",
+        "Car"
+      ],
+      "correct": 3,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 285,
+      "text": "If X=24 and Y=25 then Z=?",
+      "options": [
+        "26",
+        "27",
+        "23",
+        "28"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 286,
+      "text": "Series: A Z B Y ?",
+      "options": [
+        "C",
+        "X",
+        "W",
+        "D"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 287,
+      "text": "Complete: 1, 1, 2, 3, 5, 8, ?",
+      "options": [
+        "13",
+        "11",
+        "10",
+        "12"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 288,
+      "text": "If 'ICE' is 'JDF' then 'HOT' is?",
+      "options": [
+        "IPU",
+        "GNS",
+        "IPS",
+        "IQU"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 289,
+      "text": "Series: 0, 1, 4, 9, 16, ?",
+      "options": [
+        "25",
+        "20",
+        "30",
+        "24"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 290,
+      "text": "Find the Odd one out: Circle; Square; Sphere; Triangle",
+      "options": [
+        "Circle",
+        "Square",
+        "Sphere",
+        "Triangle"
+      ],
+      "correct": 2,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 291,
+      "text": "Match: 123456",
+      "options": [
+        "123465",
+        "123456",
+        "123356",
+        "122456"
+      ],
+      "correct": 1,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 292,
+      "text": "Count the number of 'E's in 'ELEMENTARY'",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "correct": 1,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 293,
+      "text": "Different one: 5555, 5555, 5565, 5555",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 2,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 294,
+      "text": "Exact match: @#$%",
+      "options": [
+        "@#$%",
+        "@%$#",
+        "@#*%",
+        "@&#%"
+      ],
+      "correct": 0,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 295,
+      "text": "Which is different? \n1.Road \n2. Road \n3.Raod \n4.Road",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 2,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 296,
+      "text": "Match: 9.989",
+      "options": [
+        "9.988",
+        "9.989",
+        "9.899",
+        "9.998"
+      ],
+      "correct": 1,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 297,
+      "text": "Match: \"New York\"",
+      "options": [
+        "New York",
+        "New York",
+        "NewYork",
+        "New york"
+      ],
+      "correct": 1,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 298,
+      "text": "Unique item: \n1.AAAA \n2.AAAB \n3.AAAA \n4.AAAA",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 1,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 299,
+      "text": "Count the '1's: 1011011",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 1,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 300,
+      "text": "Match: ABC-XYZ",
+      "options": [
+        "ABC-XYZ",
+        "ABD-XYZ",
+        "ABC-XYY",
+        "ABC_XYZ"
+      ],
+      "correct": 0,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 301,
+      "text": "If you subtract 18 from 50 what is the result?",
+      "options": [
+        "32",
+        "42",
+        "22",
+        "38"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 302,
+      "text": "A cyclist covers 40km in 2 hours. What is the cyclists speed?",
+      "options": [
+        "20 km/h",
+        "80 km/h",
+        "10 km/h",
+        "30 km/h"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 303,
+      "text": "Which is the smallest: \n1. 1/2 \n2. 1/4 \n3. 1/8 \n4. 1/10",
+      "options": [
+        "1/2",
+        "1/4",
+        "1/8",
+        "1/10"
+      ],
+      "correct": 3,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 304,
+      "text": "Solve: 5 + 5x5 - 5",
+      "options": [
+        "25",
+        "20",
+        "45",
+        "5"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 305,
+      "text": "Find the average of the first five even numbers.",
+      "options": [
+        "5",
+        "6",
+        "10",
+        "12"
+      ],
+      "correct": 1,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 306,
+      "text": "If y - 15 = 30 then y = ?",
+      "options": [
+        "15",
+        "45",
+        "30",
+        "60"
+      ],
+      "correct": 1,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 307,
+      "text": "Area of a rectangle is 120 and length is 12. Find width.",
+      "options": [
+        "10",
+        "12",
+        "8",
+        "14"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 308,
+      "text": "If 10% of a number is 50 what is the number?",
+      "options": [
+        "500",
+        "50",
+        "5",
+        "100"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 309,
+      "text": "What is 2^5?",
+      "options": [
+        "10",
+        "32",
+        "16",
+        "64"
+      ],
+      "correct": 1,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 310,
+      "text": "How many sides does a hexagon have?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct": 1,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 311,
+      "text": "The sum of angles in a quadrilateral is?",
+      "options": [
+        "180",
+        "360",
+        "90",
+        "270"
+      ],
+      "correct": 1,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 312,
+      "text": "Find the HCF of 24 and 36.",
+      "options": [
+        "6",
+        "12",
+        "18",
+        "24"
+      ],
+      "correct": 1,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 313,
+      "text": "What is 0.25 written as a fraction?",
+      "options": [
+        "1/4",
+        "1/2",
+        "1/3",
+        "1/5"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 314,
+      "text": "If 4 pens cost \u20b980 how much for 10 pens?",
+      "options": [
+        "\u20b9 200",
+        "\u20b9 160",
+        "\u20b9 240",
+        "\u20b9 180"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 315,
+      "text": "A shopkeeper marks up a \u20b9100 item by 20% then gives 10% discount. Final price?",
+      "options": [
+        "\u20b9 110",
+        "\u20b9 108",
+        "\u20b9 112",
+        "\u20b9 105"
+      ],
+      "correct": 1,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 316,
+      "text": "Find the Odd one out: \nJupiter \nSaturn \nEarth \nSun",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Earth",
+        "Sun"
+      ],
+      "correct": 3,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 317,
+      "text": "Which is the correct Analogy: \nBird : Nest :: Person : ?",
+      "options": [
+        "House",
+        "Sky",
+        "Tree",
+        "Forest"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 318,
+      "text": "If 'ACE' is 9 'BAD' is?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "6"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 319,
+      "text": "A is B's brother. C is A's father. D is C's wife. How is D to B?",
+      "options": [
+        "Mother",
+        "Aunt",
+        "Sister",
+        "Daughter"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 320,
+      "text": "Arrange: \n1.Curd \n2.Grass \n3.Butter \n4.Cow",
+      "options": [
+        "2-4-1-3",
+        "4-2-1-3",
+        "2-1-4-3",
+        "1-2-3-4"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 321,
+      "text": "Next number in the sequence: 2 6 18 54 ?",
+      "options": [
+        "162",
+        "108",
+        "120",
+        "200"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 322,
+      "text": "If 'WEST' is 'EAST' then 'NORTH-WEST' is?",
+      "options": [
+        "SOUTH-EAST",
+        "NORTH-EAST",
+        "SOUTH-WEST",
+        "SOUTH"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 323,
+      "text": "Find the Odd one out: Rose; Lily; Potato; Lotus",
+      "options": [
+        "Rose",
+        "Lily",
+        "Potato",
+        "Lotus"
+      ],
+      "correct": 2,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 324,
+      "text": "Which is the correct Analogy: \nClock : Time :: Thermometer : ?",
+      "options": [
+        "Heat",
+        "Temperature",
+        "Cold",
+        "Fever"
+      ],
+      "correct": 1,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 325,
+      "text": "Statement: All kings are brave. Some brave are soldiers. \nConclusion: All kings are soldiers.\nThe conclusion is",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "Uncertain",
+        "nan"
+      ],
+      "correct": 1,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 326,
+      "text": "If A=1 and Z=26 then B=?",
+      "options": [
+        "2",
+        "25",
+        "3",
+        "24"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 327,
+      "text": "Find the Odd one out: Mars; Earth; Venus; Moon",
+      "options": [
+        "Mars",
+        "Earth",
+        "Venus",
+        "Moon"
+      ],
+      "correct": 3,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 328,
+      "text": "Which is the correct Analogy: \nFood : Stomach :: Fuel : ?",
+      "options": [
+        "Engine",
+        "Car",
+        "Gas",
+        "Tank"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 329,
+      "text": "If 'GOLD' is 'HOME' then 'COME' is?",
+      "options": [
+        "DONE",
+        "BOME",
+        "DOME",
+        "CONE"
+      ],
+      "correct": 2,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 330,
+      "text": "Find the missing number: 5, 11, 17, 23, ?",
+      "options": [
+        "29",
+        "30",
+        "28",
+        "31"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 331,
+      "text": "Find the synonym for 'WEALTHY':",
+      "options": [
+        "Rich",
+        "Poor",
+        "Sad",
+        "Happy"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 332,
+      "text": "Antonym for 'MODERN':",
+      "options": [
+        "New",
+        "Ancient",
+        "Recent",
+        "Current"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 333,
+      "text": "Which of the following is the correct spelling:",
+      "options": [
+        "Difference",
+        "Diference",
+        "Diffrence",
+        "Differense"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 334,
+      "text": "Meaning of 'Beat around the bush':",
+      "options": [
+        "Avoid the main topic",
+        "Cut a plant",
+        "Run fast",
+        "Talk loudly"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 335,
+      "text": "Synonyms for 'HARD':",
+      "options": [
+        "Soft",
+        "Difficult",
+        "Easy",
+        "Light"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 336,
+      "text": "Antonym for 'FRIEND':",
+      "options": [
+        "Pal",
+        "Enemy",
+        "Buddy",
+        "Ally"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 337,
+      "text": "Which of the following is an adjective?",
+      "options": [
+        "Quickly",
+        "Blue",
+        "Run",
+        "Jump"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 338,
+      "text": "Meaning of 'Bite the bullet':",
+      "options": [
+        "Eat metal",
+        "Endure a painful experience",
+        "Shoot a gun",
+        "Run away"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 339,
+      "text": "What is the synonym for 'END':",
+      "options": [
+        "Finish",
+        "Start",
+        "Begin",
+        "Open"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 340,
+      "text": "Fill in the blank with the correct preposition: \nHe is sitting ___ a chair.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "with"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 341,
+      "text": "Which of the following is an Antonym for 'UP':",
+      "options": [
+        "Down",
+        "Left",
+        "Right",
+        "Top"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 342,
+      "text": "Identify the verb: \nThe bird flies high.",
+      "options": [
+        "Bird",
+        "Flies",
+        "High",
+        "The"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 343,
+      "text": "Which of the following is synonym for 'LARGE':",
+      "options": [
+        "Big",
+        "Small",
+        "Tiny",
+        "Narrow"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 344,
+      "text": "What is a 'Suffix'?",
+      "options": [
+        "Start of word",
+        "End of word",
+        "Middle of word",
+        "Whole word"
+      ],
+      "correct": 1,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 345,
+      "text": "Which of the following is an Antonym for 'HOT':",
+      "options": [
+        "Cold",
+        "Warm",
+        "Sunny",
+        "Boiling"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 346,
+      "text": "A pair of tweezers is which class of lever?",
+      "options": [
+        "First",
+        "Second",
+        "Third",
+        "nan"
+      ],
+      "correct": 2,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 347,
+      "text": "If a small gear drives a large gear the speed of the large gear?",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Stays same",
+        "Reverse"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 348,
+      "text": "Buoyancy is an ___ force.",
+      "options": [
+        "Downward",
+        "Upward",
+        "Sideways",
+        "Centrifugal"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 349,
+      "text": "Which of the following is a conductor?",
+      "options": [
+        "Glass",
+        "Plastic",
+        "Silver",
+        "Wood"
+      ],
+      "correct": 2,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 350,
+      "text": "Gravitational pull is strongest at?",
+      "options": [
+        "Equator",
+        "Poles",
+        "Space",
+        "Center of Earth"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 351,
+      "text": "A pulley with 2 ropes has a mechanical advantage of?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 352,
+      "text": "Resistance is measured in?",
+      "options": [
+        "Ohms",
+        "Volts",
+        "Amps",
+        "Watts"
+      ],
+      "correct": 0,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 353,
+      "text": "Friction produces?",
+      "options": [
+        "Cold",
+        "Heat",
+        "Water",
+        "Electricity"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 354,
+      "text": "Which lever has the fulcrum in the middle?",
+      "options": [
+        "First",
+        "Second",
+        "Third",
+        "Fourth"
+      ],
+      "correct": 0,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 355,
+      "text": "Formula:\nPressure = ?",
+      "options": [
+        "Force / Area",
+        "Mass x Speed",
+        "Force x Distance",
+        "Mass / Volume"
+      ],
+      "correct": 0,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 356,
+      "text": "Heat is transferred in solids mainly by?",
+      "options": [
+        "Convection",
+        "Radiation",
+        "Conduction",
+        "Sublimation"
+      ],
+      "correct": 2,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 357,
+      "text": "An object in motion tends to stay in motion is Newton's ___ Law.",
+      "options": [
+        "1st",
+        "2nd",
+        "3rd",
+        "4th"
+      ],
+      "correct": 0,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 358,
+      "text": "What happens to volume of gas as pressure increases (constant temp)?",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Stays same",
+        "Zero"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 359,
+      "text": "The unit of force is?",
+      "options": [
+        "Joule",
+        "Newton",
+        "Watt",
+        "Pascal"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 360,
+      "text": "Light travels in a?",
+      "options": [
+        "Curve",
+        "Straight line",
+        "Circle",
+        "Zig-zag"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 361,
+      "text": "How many faces does a tetrahedron have?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 1,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 362,
+      "text": "What is the mirror image of 'W':",
+      "options": [
+        "M",
+        "W",
+        "V",
+        "U"
+      ],
+      "correct": 1,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 363,
+      "text": "How many degrees in a straight line?",
+      "options": [
+        "90",
+        "180",
+        "270",
+        "360"
+      ],
+      "correct": 1,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 364,
+      "text": "Top view of a cube is a?",
+      "options": [
+        "Triangle",
+        "Circle",
+        "Square",
+        "Hexagon"
+      ],
+      "correct": 2,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 365,
+      "text": "If you turn 90 deg Left twice you face?",
+      "options": [
+        "Opposite direction",
+        "Same direction",
+        "Right",
+        "Left"
+      ],
+      "correct": 0,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 366,
+      "text": "How many sides in a pentagon?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 1,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 367,
+      "text": "Sum of all angles in a square is?",
+      "options": [
+        "180",
+        "360",
+        "90",
+        "540"
+      ],
+      "correct": 1,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 368,
+      "text": "A line segment has how many endpoints?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct": 2,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 369,
+      "text": "Base of a cylinder is a?",
+      "options": [
+        "Square",
+        "Triangle",
+        "Circle",
+        "Rectangle"
+      ],
+      "correct": 2,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 371,
+      "text": "Perpendicular lines form an angle of?",
+      "options": [
+        "45",
+        "90",
+        "180",
+        "0"
+      ],
+      "correct": 1,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 373,
+      "text": "The distance around a circle is?",
+      "options": [
+        "Radius",
+        "Diameter",
+        "Circumference",
+        "Area"
+      ],
+      "correct": 2,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 374,
+      "text": "An obtuse angle is greater than?",
+      "options": [
+        "90 deg",
+        "180 deg",
+        "360 deg",
+        "45 deg"
+      ],
+      "correct": 0,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 376,
+      "text": "Series: \n100, 50, 25, ?",
+      "options": [
+        "12.5",
+        "10",
+        "5",
+        "20"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 377,
+      "text": "Series: \nAZ, CX, EV, ?",
+      "options": [
+        "GT",
+        "HS",
+        "IR",
+        "JQ"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 378,
+      "text": "Find the Odd one out: \n2 3 5 8 13",
+      "options": [
+        "2",
+        "3",
+        "8",
+        "13"
+      ],
+      "correct": 2,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 379,
+      "text": "If $5+5=10$ then $5 x 5 = ?$",
+      "options": [
+        "10",
+        "25",
+        "20",
+        "15"
+      ],
+      "correct": 1,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 380,
+      "text": "Series: \n1 8 27 64 ?",
+      "options": [
+        "125",
+        "100",
+        "216",
+        "150"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 381,
+      "text": "Complete: \ud83d\udfe5 \ud83d\udfe7 \ud83d\udfe8 ?",
+      "options": [
+        "\ud83d\udfe9",
+        "\ud83d\udfe6",
+        "\ud83d\udfea",
+        "\u2b1b"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 382,
+      "text": "If 'BIRD' is 'CJSE' then 'CAT' is?",
+      "options": [
+        "DBU",
+        "DAU",
+        "EBU",
+        "CAT"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 383,
+      "text": "Series: 1000 100 10 ?",
+      "options": [
+        "1",
+        "0.1",
+        "0",
+        "10"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 384,
+      "text": "Find the Odd one out: Monday; Tuesday; Wednesday; Weekend",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Weekend"
+      ],
+      "correct": 3,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 385,
+      "text": "If L=12 then M=?",
+      "options": [
+        "13",
+        "14",
+        "11",
+        "15"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 386,
+      "text": "Series: A B D G ?",
+      "options": [
+        "K",
+        "J",
+        "I",
+        "L"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 387,
+      "text": "Complete: 2, 4, 6, 8, 10 ?",
+      "options": [
+        "12",
+        "14",
+        "11",
+        "13"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 388,
+      "text": "If 'MAP' is 'N B Q' then 'SUN' is?",
+      "options": [
+        "T V O",
+        "S U M",
+        "R T M",
+        "U V O"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 389,
+      "text": "Series: 1, 3, 5, 7, 9, ?",
+      "options": [
+        "11",
+        "13",
+        "10",
+        "12"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 390,
+      "text": "Find the Odd one out: Apple; Orange; Grape; Carrot",
+      "options": [
+        "Apple",
+        "Orange",
+        "Grape",
+        "Carrot"
+      ],
+      "correct": 3,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 391,
+      "text": "Match: 445566",
+      "options": [
+        "445566",
+        "454566",
+        "445656",
+        "445556"
+      ],
+      "correct": 0,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 392,
+      "text": "Count the number of 'M's in 'COMMUNICATION'",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 1,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 393,
+      "text": "Different one: \n 1. #### \n 2. #### \n 3. ### # \n 4. ####",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 2,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 394,
+      "text": "What is the right match: (123)",
+      "options": [
+        "-123",
+        "[123]",
+        "{123}",
+        "/123/"
+      ],
+      "correct": 0,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 395,
+      "text": "Different one: \n1.Test \n2.Test \n3.Tset \n4.Test",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 2,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 396,
+      "text": "Match: 0.001",
+      "options": [
+        "0.01",
+        "0.001",
+        "0.0001",
+        "0.1"
+      ],
+      "correct": 1,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 397,
+      "text": "Match: \"London\"",
+      "options": [
+        "London",
+        "london",
+        "Londen",
+        "London"
+      ],
+      "correct": 1,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 398,
+      "text": "Unique: 1212; 1212; 2121; 1212",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 2,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 399,
+      "text": "Count '9's: 909909",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 1,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 400,
+      "text": "Match: PQR-123",
+      "options": [
+        "PQR-123",
+        "PRQ-123",
+        "PQR-132",
+        "PQS-123"
+      ],
+      "correct": 0,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 401,
+      "text": "If x + 10 = 25, then what is x?",
+      "options": [
+        "15",
+        "10",
+        "20",
+        "5"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 402,
+      "text": "A car travels 120 miles in 2 hours. Speed?",
+      "options": [
+        "60 mph",
+        "50 mph",
+        "70 mph",
+        "40 mph"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 403,
+      "text": "Which of the following is greater: 0.7 or 0.09?",
+      "options": [
+        "0.7",
+        "0.09",
+        "Equal",
+        "Neither"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 404,
+      "text": "Solve: 20 - (5 + 5) x 2",
+      "options": [
+        "0",
+        "10",
+        "20",
+        "5"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 405,
+      "text": "Average of 5, 10, 15, 20, 25 is?",
+      "options": [
+        "15",
+        "10",
+        "20",
+        "25"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 406,
+      "text": "If y/2 = 50 then y?",
+      "options": [
+        "100",
+        "50",
+        "25",
+        "200"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 407,
+      "text": "If the area of a square is 144. What is its perimeter?",
+      "options": [
+        "48",
+        "36",
+        "24",
+        "60"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 408,
+      "text": "20% of 500 is?",
+      "options": [
+        "100",
+        "50",
+        "150",
+        "200"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 409,
+      "text": "3^4 is ?",
+      "options": [
+        "81",
+        "27",
+        "9",
+        "243"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 410,
+      "text": "How many sides does an octagon have?",
+      "options": [
+        "8",
+        "6",
+        "7",
+        "10"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 411,
+      "text": "What is the sum of all angles in a triangle?",
+      "options": [
+        "180",
+        "360",
+        "90",
+        "270"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 412,
+      "text": "HCF of 10 and 25?",
+      "options": [
+        "5",
+        "10",
+        "2",
+        "1"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 413,
+      "text": "How do you write 0.5 as a fraction?",
+      "options": [
+        "1/2",
+        "1/3",
+        "3/4",
+        "1/5"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 414,
+      "text": "If 5 books cost \u20b9250. How much does 1 book cost?",
+      "options": [
+        "\u20b9 50",
+        "\u20b9 25",
+        "\u20b9 100",
+        "\u20b9 75"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 415,
+      "text": "A shopkeeper buys a shoe for \u20b91000 and sells it at a profit of 10%? How much does the shopkeeper earn",
+      "options": [
+        "\u20b9 100",
+        "\u20b9 10",
+        "\u20b9 50",
+        "\u20b9 200"
+      ],
+      "correct": 0,
+      "dimension": "Numerical Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 416,
+      "text": "Find the odd one out: \nSun \nMoon \nStars\nClouds",
+      "options": [
+        "Sun",
+        "Moon",
+        "Stars",
+        "Clouds"
+      ],
+      "correct": 3,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 417,
+      "text": "Which is the correct Analogy: \nFish : Water :: Bird : ?",
+      "options": [
+        "Sky",
+        "Tree",
+        "Nest",
+        "Ground"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 418,
+      "text": "If 'B' is 2 then 'D' is?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 419,
+      "text": "My father's only son' refers to whom?",
+      "options": [
+        "Brother",
+        "Uncle",
+        "Cousin",
+        "Father"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 420,
+      "text": "What is the correct order: \n 1.Egg \n 2.Caterpillar \n 3.Pupa \n 4.Butterfly",
+      "options": [
+        "1-2-3-4",
+        "4-3-2-1",
+        "2-1-3-4",
+        "1-3-2-4"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 421,
+      "text": "Next number in the sequence: 10, 20, 30, 40 ?",
+      "options": [
+        "50",
+        "60",
+        "45",
+        "55"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 422,
+      "text": "If 'UP' is 'DOWN' then 'LEFT' is?",
+      "options": [
+        "RIGHT",
+        "UP",
+        "SIDE",
+        "BACK"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 423,
+      "text": "Which is the odd one: Red; Blue; Green; Loud",
+      "options": [
+        "Red",
+        "Blue",
+        "Green",
+        "Loud"
+      ],
+      "correct": 3,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 424,
+      "text": "Which is the correct Analogy: \nPen : Write :: Knife : ?",
+      "options": [
+        "Cut",
+        "Eat",
+        "Sharp",
+        "Cook"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 425,
+      "text": "Statement: All cats meow. Tom is a cat. \nConclusion: Tom meows.\nThe conclusion is",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "Uncertain",
+        "nan"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 426,
+      "text": "If A=1, B=2 then C=?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 427,
+      "text": "Which is the odd one: Car; Truck; Bike; House",
+      "options": [
+        "Car",
+        "Truck",
+        "Bike",
+        "House"
+      ],
+      "correct": 3,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 428,
+      "text": "Which is the correct Analogy: \nRain : Wet :: Fire : ?",
+      "options": [
+        "Hot",
+        "Cold",
+        "Water",
+        "Dry"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 429,
+      "text": "If 'CAT' is 'SAT' then 'CAN' is?",
+      "options": [
+        "SAN",
+        "BAN",
+        "TAN",
+        "DAN"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 430,
+      "text": "What is the missing number in the sequence: 2, 4, 6, 8, ?",
+      "options": [
+        "10",
+        "12",
+        "9",
+        "11"
+      ],
+      "correct": 0,
+      "dimension": "Verbal Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 431,
+      "text": "What is the Synonym of: 'HAPPY'",
+      "options": [
+        "Joyful",
+        "Sad",
+        "Angry",
+        "Tired"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 432,
+      "text": "Antonym: 'GIANT'",
+      "options": [
+        "Tiny",
+        "Huge",
+        "Large",
+        "Big"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 433,
+      "text": "Spelling: Which is the correct spelling",
+      "options": [
+        "Believe",
+        "Beleive",
+        "Belive",
+        "Belieev"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 434,
+      "text": "Meaning: 'Piece of cake'",
+      "options": [
+        "Easy",
+        "Hard",
+        "Sweet",
+        "Small"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 435,
+      "text": "Which of the following is the Synonym of: 'FAST'",
+      "options": [
+        "Quick",
+        "Slow",
+        "Steady",
+        "Heavy"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 436,
+      "text": "Antonym: 'WAR'",
+      "options": [
+        "Peace",
+        "Battle",
+        "Fight",
+        "Conflict"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 437,
+      "text": "Which of the following is a noun?",
+      "options": [
+        "Dog",
+        "Run",
+        "Fast",
+        "Blue"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 438,
+      "text": "Meaning: 'Brake the ice'",
+      "options": [
+        "Start conversation",
+        "End a party",
+        "Cold water",
+        "Freeze"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 439,
+      "text": "What is the Synonym of: 'SMALL'",
+      "options": [
+        "Little",
+        "Large",
+        "Big",
+        "Huge"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 440,
+      "text": "Preposition: Look ___ the map.",
+      "options": [
+        "at",
+        "on",
+        "in",
+        "to"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 441,
+      "text": "Which of the following is the Antonym of: 'START'",
+      "options": [
+        "Finish",
+        "Begin",
+        "Open",
+        "Launch"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 442,
+      "text": "Identify Verb: \nHe runs daily.",
+      "options": [
+        "Runs",
+        "He",
+        "Daily",
+        "The"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 443,
+      "text": "What is the Synonym of: 'BEAUTIFUL'",
+      "options": [
+        "Pretty",
+        "Ugly",
+        "Mean",
+        "Dark"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 444,
+      "text": "What is a Prefix?",
+      "options": [
+        "Start of word",
+        "End of word",
+        "Middle",
+        "Whole"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 445,
+      "text": "Which of the following is the Antonym of: 'TALL'",
+      "options": [
+        "Short",
+        "High",
+        "Big",
+        "Long"
+      ],
+      "correct": 0,
+      "dimension": "Language Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 446,
+      "text": "A see-saw is which lever?",
+      "options": [
+        "First",
+        "Second",
+        "Third",
+        "nan"
+      ],
+      "correct": 0,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 434,
+      "text": "Two gears connected by a belt move in?",
+      "options": [
+        "Opposite",
+        "Same direction",
+        "Up",
+        "Down"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 448,
+      "text": "Mass per unit volume is?",
+      "options": [
+        "Density",
+        "Weight",
+        "Pressure",
+        "Force"
+      ],
+      "correct": 0,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 449,
+      "text": "Which is a good insulator?",
+      "options": [
+        "Rubber",
+        "Copper",
+        "Iron",
+        "Gold"
+      ],
+      "correct": 0,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 450,
+      "text": "Force that resists motion?",
+      "options": [
+        "Friction",
+        "Gravity",
+        "Inertia",
+        "Speed"
+      ],
+      "correct": 0,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 451,
+      "text": "Fixed pulley advantage?",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "correct": 2,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 452,
+      "text": "What is the unit of current?",
+      "options": [
+        "Watt",
+        "Volt",
+        "Ohm",
+        "Ampere"
+      ],
+      "correct": 3,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 453,
+      "text": "Work = Force x ?",
+      "options": [
+        "Distance",
+        "Time",
+        "Mass",
+        "Speed"
+      ],
+      "correct": 0,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 454,
+      "text": "Fulcrum at one end Load in middle?",
+      "options": [
+        "Second class",
+        "First",
+        "Third",
+        "nan"
+      ],
+      "correct": 0,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 455,
+      "text": "Pressure increases with?",
+      "options": [
+        "Depth",
+        "Height",
+        "Speed",
+        "Width"
+      ],
+      "correct": 0,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 456,
+      "text": "Heat from Sun reaches Earth by?",
+      "options": [
+        "Radiation",
+        "Conduction",
+        "Convection",
+        "nan"
+      ],
+      "correct": 0,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 457,
+      "text": "Action-Reaction is Newton's ___ Law.",
+      "options": [
+        "3rd",
+        "1st",
+        "2nd",
+        "4th"
+      ],
+      "correct": 0,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 458,
+      "text": "Boyle's Law involves?",
+      "options": [
+        "Heat",
+        "Pressure/Volume",
+        "Light",
+        "Gravity"
+      ],
+      "correct": 1,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 459,
+      "text": "What is the unit of power?",
+      "options": [
+        "Watt",
+        "Joule",
+        "Newton",
+        "Volt"
+      ],
+      "correct": 0,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 460,
+      "text": "Reflection will happens on?",
+      "options": [
+        "Mirrors",
+        "Wood",
+        "Paper",
+        "Cloth"
+      ],
+      "correct": 0,
+      "dimension": "Mechanical Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 461,
+      "text": "How many faces does a cylinder have?",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "correct": 0,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 462,
+      "text": "Mirror image of 'O':",
+      "options": [
+        "O",
+        "X",
+        "U",
+        "Q"
+      ],
+      "correct": 0,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 464,
+      "text": "What is the Side view of a cone?",
+      "options": [
+        "Triangle",
+        "Circle",
+        "Square",
+        "Oval"
+      ],
+      "correct": 0,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 465,
+      "text": "If you turn 180 degrees you will face?",
+      "options": [
+        "Opposite",
+        "Same",
+        "Left",
+        "Right"
+      ],
+      "correct": 0,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 466,
+      "text": "How many sides does a triangle have?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 0,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 467,
+      "text": "What is the sum of angles in a rectangle?",
+      "options": [
+        "360",
+        "180",
+        "90",
+        "540"
+      ],
+      "correct": 0,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 468,
+      "text": "If the Radius is 5, what is the diameter?",
+      "options": [
+        "10",
+        "5",
+        "15",
+        "20"
+      ],
+      "correct": 0,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 469,
+      "text": "What is the bottom of a pyramid called?",
+      "options": [
+        "Base",
+        "Top",
+        "Side",
+        "Edge"
+      ],
+      "correct": 0,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "High"
+    },
+    {
+      "id": 470,
+      "text": "Which is the next image in the Pattern: \u2b06\ufe0f \u2b07\ufe0f \u2b06\ufe0f ?",
+      "options": [
+        "\u2b07\ufe0f",
+        "\u27a1\ufe0f",
+        "\u2b05\ufe0f",
+        "\u2196\ufe0f"
+      ],
+      "correct": 0,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 471,
+      "text": "Angle of 90 degrees is called?",
+      "options": [
+        "Right",
+        "Acute",
+        "Obtuse",
+        "Flat"
+      ],
+      "correct": 0,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 472,
+      "text": "What will be the Mirror image of 'H':",
+      "options": [
+        "H",
+        "I",
+        "M",
+        "W"
+      ],
+      "correct": 0,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 473,
+      "text": "What is the middle point of a circle called?",
+      "options": [
+        "Center",
+        "Edge",
+        "Radius",
+        "Chord"
+      ],
+      "correct": 0,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 474,
+      "text": "When Angle < 90, It is called:",
+      "options": [
+        "Acute",
+        "Obtuse",
+        "Right",
+        "Straight"
+      ],
+      "correct": 0,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 475,
+      "text": "What comes next\nPattern: Square; Circle; Square; ?",
+      "options": [
+        "Circle",
+        "Square",
+        "Triangle",
+        "Line"
+      ],
+      "correct": 0,
+      "dimension": "Spatial Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 476,
+      "text": "What comes next in the series: 2, 4, 8 ?",
+      "options": [
+        "16",
+        "10",
+        "12",
+        "14"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 477,
+      "text": "What comes next in the series: AB CD EF ?",
+      "options": [
+        "GH",
+        "IJ",
+        "KL",
+        "MN"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 478,
+      "text": "Find the odd one out: 1, 3, 4, 5",
+      "options": [
+        "4",
+        "1",
+        "3",
+        "5"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 479,
+      "text": "If 1+1=2 then 2+1=?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 480,
+      "text": "Next number in the sequence: 1, 4, 9 ?",
+      "options": [
+        "16",
+        "12",
+        "10",
+        "20"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 481,
+      "text": "What comes next in the series: \ud83d\udd34 \ud83d\udd35 \ud83d\udd34 ?",
+      "options": [
+        "\ud83d\udd35",
+        "\ud83d\udd34",
+        "\ud83d\udfe2",
+        "\ud83d\udfe1"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 482,
+      "text": "If 'CAT' is 'DBU' then 'BAT' is?",
+      "options": [
+        "CBU",
+        "DBU",
+        "DAU",
+        "CAT"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 483,
+      "text": "Next number in the sequence: 10, 5, 0 ?",
+      "options": [
+        "-5",
+        "-10",
+        "5",
+        "1"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 484,
+      "text": "Odd one: Apple; Pear; Banana; Potato",
+      "options": [
+        "Potato",
+        "Apple",
+        "Pear",
+        "Banana"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "High"
+    },
+    {
+      "id": 485,
+      "text": "If $A=1$ then $B=?$",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 486,
+      "text": "What comes next in the series: A, C, E, ?",
+      "options": [
+        "G",
+        "F",
+        "H",
+        "I"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 487,
+      "text": "What comes next in the series: 5, 10, 15, ?",
+      "options": [
+        "20",
+        "25",
+        "18",
+        "22"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 488,
+      "text": "If 'HI' is 'IJ' then 'BY' is?",
+      "options": [
+        "CZ",
+        "AX",
+        "BZ",
+        "CY"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "Mid"
+    },
+    {
+      "id": 489,
+      "text": "What comes next in the series: 0, 2. 4 ?",
+      "options": [
+        "6",
+        "8",
+        "5",
+        "7"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 490,
+      "text": "Find the Odd one out: Square Circle Triangle Blue",
+      "options": [
+        "Blue",
+        "Square",
+        "Circle",
+        "Triangle"
+      ],
+      "correct": 0,
+      "dimension": "Abstract Reasoning",
+      "difficulty": "Low"
+    },
+    {
+      "id": 491,
+      "text": "Match: 112233",
+      "options": [
+        "112233",
+        "112223",
+        "121233",
+        "113322"
+      ],
+      "correct": 0,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 492,
+      "text": "Count 'A' in 'APPLE'",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct": 1,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 493,
+      "text": "Which is Different: \n 1. # ### \n 2. # ### \n 3. # ### \n 4. ### #",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 3,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 494,
+      "text": "Match: [ABC]",
+      "options": [
+        "[ABC]",
+        "{ABC}",
+        "(ABC)",
+        "<ABC>"
+      ],
+      "correct": 0,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 495,
+      "text": "Which is Different: \n 1. Book; 2. Book; 3. Boook; 4.Book",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "correct": 0,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 496,
+      "text": "Match: 1.01",
+      "options": [
+        "1.01",
+        "1.1",
+        "1.001",
+        "1.0001"
+      ],
+      "correct": 0,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 497,
+      "text": "Match: \"Paris\"",
+      "options": [
+        "Paris",
+        "peris",
+        "Pares",
+        "Parsi"
+      ],
+      "correct": 0,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 498,
+      "text": "Which of the following is unqiue: \n1. 777;  \n2. 777; \n3. 787;\n4. 777;",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "correct": 0,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 499,
+      "text": "Count '1's: 11100",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "correct": 0,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    },
+    {
+      "id": 500,
+      "text": "Match: AAA-111",
+      "options": [
+        "AAA-111",
+        "AAB-111",
+        "AAA-112",
+        "BAA-111"
+      ],
+      "correct": 0,
+      "dimension": "Perceptual Aptitude",
+      "difficulty": "Low"
+    }
+  ]
+}

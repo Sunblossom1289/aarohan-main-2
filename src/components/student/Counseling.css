@@ -1,0 +1,2422 @@
+/* ===========================================
+   COUNSELING BOOKING & SESSIONS STYLES
+   =========================================== */
+
+.counseling-container { 
+  padding: 24px; 
+  font-family: 'Inter', system-ui, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Credits Banner */
+.credits-banner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 16px 24px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  color: white;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.credits-icon {
+  width: 48px;
+  height: 48px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.credits-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.credits-label {
+  font-size: 12px;
+  opacity: 0.9;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.credits-value {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.credits-description {
+  margin-left: auto;
+  background: rgba(255,255,255,0.15);
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+/* No Credits Card */
+.no-credits-card {
+  text-align: center;
+  padding: 48px 24px !important;
+}
+
+.no-credits-icon {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.no-credits-card h3 {
+  margin: 0 0 8px 0;
+  color: #ef4444;
+}
+
+.no-credits-card p {
+  margin: 0 0 8px 0;
+  color: #64748b;
+}
+
+/* Session Duration Badge */
+.session-duration {
+  font-size: 12px;
+  color: #64748b;
+  background: #f1f5f9;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+/* Tab Navigation */
+.tab-header { 
+  display: flex; 
+  gap: 8px; 
+  margin-bottom: 24px; 
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0;
+}
+
+.tab-btn { 
+  padding: 12px 24px;
+  border: none; 
+  background: none; 
+  cursor: pointer; 
+  font-size: 15px;
+  font-weight: 500;
+  color: #64748b;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tab-btn:hover {
+  color: #3b82f6;
+  background: #f1f5f9;
+}
+
+.tab-btn.active { 
+  border-bottom-color: #3b82f6;
+  font-weight: 600; 
+  color: #3b82f6;
+}
+
+.tab-badge {
+  background: #ef4444;
+  color: white;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+/* Info Banner */
+.info-banner {
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  border: 1px solid #93c5fd;
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #1e40af;
+}
+
+.info-banner.marketplace {
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+  border-color: #86efac;
+  color: #166534;
+}
+
+.info-banner i {
+  font-size: 20px;
+}
+
+/* Booking Grid */
+.booking-grid { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 24px; 
+}
+
+@media (max-width: 900px) {
+  .booking-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Card Styles */
+.card { 
+  background: white; 
+  padding: 24px; 
+  border-radius: 16px; 
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06);
+  border: 1px solid #e2e8f0;
+}
+
+.section-title { 
+  margin: 0 0 20px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e293b;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.step-number {
+  background: #3b82f6;
+  color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Calendar Customization */
+.react-calendar {
+  border: none !important;
+  width: 100% !important;
+  font-family: inherit !important;
+}
+
+.react-calendar__tile--active {
+  background: #3b82f6 !important;
+  border-radius: 8px !important;
+}
+
+.react-calendar__tile:disabled {
+  background: #f1f5f9 !important;
+  color: #94a3b8 !important;
+}
+
+.selected-date-display {
+  background: #f1f5f9;
+  padding: 12px 16px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+  color: #334155;
+  margin-top: 16px;
+}
+
+/* Time Slots Grid */
+.time-slots-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.time-slots {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.time-btn { 
+  padding: 10px 8px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  color: #475569;
+  transition: all 0.2s;
+}
+
+.time-btn:hover:not(:disabled) { 
+  border-color: #3b82f6;
+  background: #eff6ff;
+}
+
+.time-btn.selected { 
+  background: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+}
+
+.time-btn:disabled {
+  background: #f1f5f9;
+  color: #94a3b8;
+  cursor: not-allowed;
+  border-color: #e2e8f0;
+}
+
+.add-slot-btn {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.2s;
+}
+
+.add-slot-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.add-slot-btn:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+/* Selected Slots List */
+.slots-list {
+  min-height: 200px;
+}
+
+.empty-slots {
+  text-align: center;
+  padding: 40px 20px;
+  color: #94a3b8;
+}
+
+.empty-slots p {
+  margin: 12px 0 4px;
+  font-weight: 500;
+}
+
+.empty-slots small {
+  font-size: 13px;
+}
+
+.slot-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f8fafc;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+  transition: all 0.2s;
+}
+
+.slot-card:hover {
+  border-color: #cbd5e1;
+}
+
+.slot-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.slot-number {
+  font-size: 11px;
+  font-weight: 700;
+  color: #3b82f6;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.slot-date {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.slot-time {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.remove-slot-btn {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: #fee2e2;
+  color: #dc2626;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.remove-slot-btn:hover {
+  background: #fecaca;
+}
+
+.slots-complete {
+  background: #dcfce7;
+  color: #166534;
+  padding: 12px 16px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* Topic Input */
+.topic-input { 
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: all 0.2s;
+  box-sizing: border-box;
+}
+
+.topic-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Action Buttons */
+.action-btn { 
+  width: 100%;
+  padding: 14px 24px;
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.2s;
+}
+
+.action-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+.action-btn:disabled { 
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+.submit-btn {
+  margin-top: 8px;
+}
+
+/* Session Cards (History) */
+.session-card {
+  background: white;
+  border-radius: 16px;
+  border: 2px solid #e2e8f0;
+  margin-bottom: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+.session-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.session-card.status-waiting {
+  border-left: 4px solid #f59e0b;
+}
+
+.session-card.status-accepted {
+  border-left: 4px solid #10b981;
+}
+
+.session-card.status-completed {
+  border-left: 4px solid #8b5cf6;
+}
+
+.session-header {
+  padding: 16px 20px;
+  background: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.status-badge.waiting {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.status-badge.accepted {
+  background: #d1fae5;
+  color: #047857;
+}
+
+.status-badge.completed {
+  background: #ede9fe;
+  color: #6d28d9;
+}
+
+.session-topic {
+  font-weight: 500;
+  color: #475569;
+}
+
+.session-body {
+  padding: 20px;
+}
+
+/* Proposed Slots (Waiting state) */
+.proposed-slots h4 {
+  margin: 0 0 12px;
+  font-size: 14px;
+  color: #475569;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.slots-mini-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.slot-mini {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+}
+
+.slot-mini-label {
+  display: block;
+  font-size: 11px;
+  color: #3b82f6;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.slot-mini-date {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.slot-mini-time {
+  display: block;
+  font-size: 12px;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+/* Confirmed Slot (Accepted state) */
+.confirmed-slot {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+  border: 1px solid #86efac;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.confirmed-slot-icon {
+  font-size: 32px;
+}
+
+.confirmed-slot-details {
+  flex: 1;
+}
+
+.confirmed-date {
+  font-weight: 600;
+  color: #166534;
+  font-size: 15px;
+}
+
+.confirmed-time {
+  color: #22c55e;
+  font-size: 14px;
+}
+
+/* Counselor Info */
+.counselor-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  padding: 12px 16px;
+  background: #f1f5f9;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #475569;
+}
+
+/* Meet Link Button */
+.meet-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #1a73e8 0%, #1557b0 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-top: 16px;
+  transition: all 0.2s;
+}
+
+.meet-link-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(26, 115, 232, 0.3);
+}
+
+/* Counselor Notes */
+.counselor-notes {
+  margin-top: 16px;
+  padding: 16px;
+  background: #faf5ff;
+  border-radius: 10px;
+  border-left: 4px solid #a855f7;
+}
+
+.counselor-notes h4 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: #7c3aed;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.counselor-notes p {
+  margin: 0;
+  color: #6b21a8;
+  line-height: 1.6;
+}
+
+.session-footer {
+  padding: 12px 20px;
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+}
+
+.created-date {
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+  border-radius: 16px;
+  border: 2px dashed #e2e8f0;
+}
+
+.empty-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.empty-state h3 {
+  margin: 0 0 8px;
+  color: #1e293b;
+}
+
+.empty-state p {
+  color: #64748b;
+  margin: 0 0 20px;
+}
+
+.refresh-btn {
+  padding: 10px 20px;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #475569;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.refresh-btn:hover {
+  background: #e2e8f0;
+}
+
+/* ===========================================
+   COUNSELOR SPECIFIC STYLES
+   =========================================== */
+
+.counselor-view .sessions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 20px;
+}
+
+/* Available Session Card */
+.available-session-card {
+  background: white;
+  border-radius: 16px;
+  border: 2px solid #e2e8f0;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+.available-session-card:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.15);
+}
+
+/* Student Info Card (Counselor View) */
+.student-info-card {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  border-radius: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #bae6fd;
+}
+
+.student-info-card .student-avatar {
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
+  color: white;
+  font-size: 24px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.student-details-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px 16px;
+  flex: 1;
+}
+
+@media (max-width: 600px) {
+  .student-details-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.detail-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #64748b;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.detail-value {
+  font-size: 14px;
+  color: #1e293b;
+  font-weight: 500;
+}
+
+/* Selected Slot Indicator */
+.selected-slot-indicator {
+  margin-top: 12px;
+  padding: 10px 16px;
+  background: #dcfce7;
+  border: 1px solid #86efac;
+  border-radius: 8px;
+  color: #166534;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Disabled Accept Button */
+.accept-btn.disabled {
+  background: #94a3b8 !important;
+  cursor: not-allowed;
+}
+
+.accept-btn.disabled:hover {
+  background: #94a3b8 !important;
+  transform: none;
+}
+
+.session-card-header {
+  padding: 16px 20px;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.request-time, .accepted-time {
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.session-card-body {
+  padding: 20px;
+}
+
+/* Student Info Mini (Anonymous) */
+.student-info-mini {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.student-avatar {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3b82f6;
+  font-size: 20px;
+}
+
+.student-avatar.large {
+  width: 56px;
+  height: 56px;
+  font-size: 24px;
+}
+
+.student-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.student-grade {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.student-school, .student-district {
+  font-size: 13px;
+  color: #64748b;
+}
+
+.student-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.student-meta {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.student-contact {
+  font-size: 13px;
+  color: #3b82f6;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Session Topic Display */
+.session-topic-display {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #f8fafc;
+  padding: 12px 16px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  color: #475569;
+}
+
+.session-topic-display i {
+  color: #3b82f6;
+}
+
+/* Slots Selection (Counselor View) */
+.slots-selection h4 {
+  margin: 0 0 12px;
+  font-size: 14px;
+  color: #475569;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.proposed-slots-grid {
+  display: grid;
+  gap: 10px;
+}
+
+.slot-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px;
+  background: #f8fafc;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.slot-option:hover {
+  border-color: #3b82f6;
+  background: #eff6ff;
+}
+
+.slot-option.selected {
+  border-color: #3b82f6;
+  background: #3b82f6;
+  color: white;
+}
+
+.slot-option.selected .slot-option-label {
+  color: #bfdbfe;
+}
+
+.slot-option.selected .slot-option-time {
+  color: #dbeafe;
+}
+
+.slot-option-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: #3b82f6;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.slot-option-date {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.slot-option-time {
+  font-size: 13px;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+/* Accept Button */
+.session-card-footer {
+  padding: 16px 20px;
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+  display: flex;
+  gap: 12px;
+}
+
+.accept-btn {
+  flex: 1;
+  padding: 14px 20px;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.2s;
+}
+
+.accept-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.accept-btn:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+/* My Session Card */
+.my-session-card {
+  background: white;
+  border-radius: 16px;
+  border: 2px solid #e2e8f0;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.my-session-card.status-accepted {
+  border-left: 4px solid #10b981;
+}
+
+.my-session-card.status-completed {
+  border-left: 4px solid #8b5cf6;
+}
+
+.student-info-full {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.confirmed-session-slot {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+  border: 1px solid #86efac;
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.slot-icon {
+  font-size: 28px;
+}
+
+.slot-details {
+  flex: 1;
+}
+
+.slot-date {
+  font-weight: 600;
+  color: #166534;
+}
+
+.slot-time {
+  color: #15803d;
+  font-size: 14px;
+}
+
+.session-notes {
+  margin-top: 16px;
+  padding: 16px;
+  background: #faf5ff;
+  border-radius: 10px;
+  border-left: 4px solid #a855f7;
+}
+
+.session-notes h4 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: #7c3aed;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.session-notes p {
+  margin: 0;
+  color: #6b21a8;
+  line-height: 1.6;
+}
+
+.join-meet-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #1a73e8 0%, #1557b0 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.join-meet-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(26, 115, 232, 0.3);
+}
+
+.complete-btn {
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s;
+}
+
+.complete-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
+.complete-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.completed-label {
+  color: #8b5cf6;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Sections */
+.sessions-section {
+  margin-bottom: 32px;
+}
+
+.section-heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0 0 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sessions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* ===========================================
+   NEW ARCHITECTURE STYLES
+   =========================================== */
+
+/* Tests Required Card */
+.tests-required-card {
+  text-align: center;
+  padding: 48px 24px !important;
+}
+
+.tests-required-icon {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.tests-required-card h3 {
+  margin: 0 0 8px 0;
+  color: #1e293b;
+}
+
+.tests-required-card p {
+  margin: 0 0 16px 0;
+  color: #64748b;
+}
+
+.tests-checklist {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 24px auto;
+  max-width: 280px;
+  text-align: left;
+}
+
+.test-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: #f8fafc;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.test-item.completed {
+  background: #ecfdf5;
+  color: #047857;
+}
+
+.test-item.completed i {
+  color: #10b981;
+}
+
+.test-item.pending {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.test-item.pending i {
+  color: #f59e0b;
+}
+
+.tests-note {
+  font-size: 14px;
+  color: #64748b;
+  margin-top: 16px !important;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+
+/* Available Seats Section */
+.available-seats-section {
+  background: white;
+  border-radius: 16px;
+  border: 2px solid #e2e8f0;
+  padding: 24px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.section-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #1e293b;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.seats-by-date {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.date-group {
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 20px;
+}
+
+.date-group:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.date-heading {
+  margin: 0 0 12px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1e293b;
+  background: #f1f5f9;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+.seats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.seat-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 14px 12px;
+  background: #f8fafc;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.seat-btn:hover:not(:disabled) {
+  border-color: #3b82f6;
+  background: #eff6ff;
+}
+
+.seat-btn.selected {
+  border-color: #3b82f6;
+  background: #3b82f6;
+  color: white;
+}
+
+.seat-btn.selected .seat-availability {
+  color: #bfdbfe;
+}
+
+.seat-btn.fully-booked {
+  background: #f1f5f9;
+  border-color: #e2e8f0;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.seat-btn.fully-booked .seat-availability {
+  color: #ef4444;
+}
+
+.seat-time {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.seat-availability {
+  font-size: 12px;
+  color: #10b981;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Selected Slot Summary */
+.selected-slot-summary {
+  margin-top: 24px;
+  padding: 20px;
+  background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+  border: 2px solid #86efac;
+  border-radius: 12px;
+}
+
+.summary-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  color: #166534;
+  margin-bottom: 12px;
+}
+
+.summary-details {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.summary-date {
+  font-weight: 600;
+  color: #166534;
+  font-size: 16px;
+}
+
+.summary-time {
+  color: #15803d;
+  font-size: 15px;
+}
+
+.book-btn {
+  width: 100%;
+  padding: 14px 24px;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.2s;
+}
+
+.book-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.book-btn:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+/* Status Badge - Confirmed */
+.status-badge.confirmed {
+  background: #d1fae5;
+  color: #047857;
+}
+
+.session-card.status-confirmed {
+  border-left: 4px solid #10b981;
+}
+
+/* ===========================================
+   COUNSELOR AVAILABILITY STYLES
+   =========================================== */
+
+.availability-tab {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.add-availability-section {
+  background: white;
+  border-radius: 16px;
+  border: 2px solid #e2e8f0;
+  padding: 24px;
+}
+
+.add-availability-section h3 {
+  margin: 0 0 20px;
+  font-size: 18px;
+  color: #1e293b;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.date-picker-section {
+  margin-bottom: 20px;
+}
+
+.date-picker-section label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #475569;
+}
+
+.date-input {
+  padding: 12px 16px;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 15px;
+  width: 100%;
+  max-width: 250px;
+}
+
+.date-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+.time-slots-picker label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 500;
+  color: #475569;
+}
+
+.time-slots-picker .time-slots-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.time-slot-btn {
+  padding: 10px 8px;
+  background: #f8fafc;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.time-slot-btn:hover {
+  border-color: #3b82f6;
+  background: #eff6ff;
+}
+
+.time-slot-btn.selected {
+  border-color: #3b82f6;
+  background: #3b82f6;
+  color: white;
+}
+
+.selected-summary {
+  background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+  border: 1px solid #86efac;
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selected-summary p {
+  margin: 0;
+  font-weight: 500;
+  color: #166534;
+}
+
+.add-slots-btn {
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s;
+}
+
+.add-slots-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.add-slots-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Current Availability Section */
+.current-availability-section {
+  background: white;
+  border-radius: 16px;
+  border: 2px solid #e2e8f0;
+  padding: 24px;
+}
+
+.current-availability-section h3 {
+  margin: 0 0 20px;
+  font-size: 18px;
+  color: #1e293b;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.availability-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.availability-date-group h4 {
+  margin: 0 0 12px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1e293b;
+  background: #f1f5f9;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+.slots-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.availability-slot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+}
+
+.availability-slot.available {
+  background: #f0fdf4;
+  border-color: #86efac;
+}
+
+.availability-slot.booked {
+  background: #fef3c7;
+  border-color: #fbbf24;
+}
+
+.booked-by {
+  font-size: 13px;
+  color: #b45309;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.delete-slot-btn {
+  padding: 6px 10px;
+  background: #fee2e2;
+  color: #dc2626;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.delete-slot-btn:hover {
+  background: #fecaca;
+}
+
+/* Sessions Tab Styles */
+.sessions-tab .session-card {
+  background: white;
+  border-radius: 16px;
+  border: 2px solid #e2e8f0;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.sessions-tab .session-card.confirmed {
+  border-left: 4px solid #10b981;
+}
+
+.sessions-tab .session-card.completed {
+  border-left: 4px solid #8b5cf6;
+}
+
+.view-results-btn {
+  padding: 10px 16px;
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+  transition: all 0.2s;
+}
+
+.view-results-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
+.student-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.student-location {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  color: #64748b;
+}
+
+/* Student Results Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.modal-content {
+  background: white;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 600px;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.student-results-modal .modal-header {
+  padding: 20px 24px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.student-results-modal .modal-header h2 {
+  margin: 0;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.close-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.modal-body {
+  padding: 24px;
+}
+
+.loading-state {
+  text-align: center;
+  padding: 40px;
+  color: #64748b;
+}
+
+.student-info-summary {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 16px;
+  background: #f8fafc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.student-info-summary p {
+  margin: 0;
+  font-size: 14px;
+  color: #475569;
+}
+
+.test-results-summary .result-section {
+  margin-bottom: 24px;
+  padding: 16px;
+  background: #f8fafc;
+  border-radius: 12px;
+}
+
+.result-section h3 {
+  margin: 0 0 16px;
+  font-size: 16px;
+  color: #1e293b;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.riasec-scores, .ocean-scores, .aptitude-scores {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.score-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.score-label {
+  width: 120px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #475569;
+}
+
+.score-fill {
+  flex: 1;
+  height: 8px;
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  border-radius: 4px;
+  max-width: 100%;
+}
+
+.score-value {
+  width: 40px;
+  text-align: right;
+  font-size: 13px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.top-code {
+  margin-top: 12px;
+  padding: 10px 16px;
+  background: #dbeafe;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #1e40af;
+}
+
+.career-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.career-list li {
+  padding: 10px 16px;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #1e293b;
+}
+
+.empty-results {
+  text-align: center;
+  padding: 40px;
+  color: #64748b;
+}
+
+.empty-results i {
+  font-size: 48px;
+  margin-bottom: 16px;
+  color: #94a3b8;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .counseling-container {
+    padding: 16px;
+  }
+  
+  .booking-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .time-slots-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .slots-mini-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .counselor-view .sessions-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .session-card-footer {
+    flex-direction: column;
+  }
+  
+  .tab-btn {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+  
+  .seats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .summary-details {
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+  }
+  
+  .selected-summary {
+    flex-direction: column;
+    gap: 12px;
+    align-items: stretch;
+  }
+  
+  .student-info-summary {
+    grid-template-columns: 1fr;
+  }
+  
+  .slots-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===========================================
+   COUNSELOR CALENDAR WIDGET STYLES
+   =========================================== */
+
+.calendar-and-slots-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .calendar-and-slots-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.calendar-section {
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+}
+
+.calendar-section label {
+  display: block;
+  margin-bottom: 16px;
+  font-weight: 600;
+  color: #1e293b;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.calendar-section .react-calendar {
+  width: 100%;
+  border: none;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  font-family: 'Inter', system-ui, sans-serif;
+  padding: 12px;
+}
+
+.calendar-section .react-calendar__navigation {
+  margin-bottom: 12px;
+}
+
+.calendar-section .react-calendar__navigation button {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e293b;
+  background: none;
+  border-radius: 8px;
+}
+
+.calendar-section .react-calendar__navigation button:hover {
+  background: #f1f5f9;
+}
+
+.calendar-section .react-calendar__navigation button:disabled {
+  background: none;
+  color: #94a3b8;
+}
+
+.calendar-section .react-calendar__month-view__weekdays {
+  font-size: 12px;
+  font-weight: 600;
+  color: #64748b;
+  text-transform: uppercase;
+}
+
+.calendar-section .react-calendar__month-view__weekdays abbr {
+  text-decoration: none;
+}
+
+.calendar-section .react-calendar__tile {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.calendar-section .react-calendar__tile:hover {
+  background: #eff6ff;
+}
+
+.calendar-section .react-calendar__tile--now {
+  background: #fef3c7;
+  font-weight: 600;
+}
+
+.calendar-section .react-calendar__tile--now:hover {
+  background: #fde68a;
+}
+
+.calendar-section .react-calendar__tile--active {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%) !important;
+  color: white;
+  font-weight: 600;
+}
+
+.calendar-section .react-calendar__tile--active:hover {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important;
+}
+
+.calendar-section .react-calendar__tile:disabled {
+  background: #f1f5f9;
+  color: #cbd5e1;
+  cursor: not-allowed;
+}
+
+/* Highlight dates with existing availability */
+.calendar-section .react-calendar__tile.has-availability {
+  position: relative;
+}
+
+.calendar-section .react-calendar__tile.has-availability::after {
+  content: '';
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 6px;
+  background: #10b981;
+  border-radius: 50%;
+}
+
+.calendar-section .selected-date-display {
+  margin-top: 16px;
+  padding: 12px 16px;
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  border-radius: 10px;
+  font-weight: 600;
+  color: #1e40af;
+  text-align: center;
+}
+
+/* Time Slots Section for Counselor */
+.time-slots-section {
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+}
+
+.time-slots-section label {
+  display: block;
+  margin-bottom: 16px;
+  font-weight: 600;
+  color: #1e293b;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.time-slots-grid.counselor-slots {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .time-slots-grid.counselor-slots {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.time-slots-grid.counselor-slots .time-slot-btn {
+  position: relative;
+  padding: 12px 8px;
+  font-size: 13px;
+}
+
+.time-slots-grid.counselor-slots .time-slot-btn.already-added {
+  background: #d1fae5 !important;
+  border-color: #86efac !important;
+  color: #047857 !important;
+  cursor: not-allowed;
+}
+
+.slot-exists-marker {
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  font-size: 10px;
+  color: #10b981;
+}
+
+.time-slots-section .selected-summary {
+  background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+  border: 1px solid #86efac;
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.time-slots-section .selected-summary p {
+  margin: 0;
+  font-weight: 500;
+  color: #166534;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.time-slots-section .add-slots-btn {
+  width: 100%;
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.2s;
+}
+
+.time-slots-section .add-slots-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.time-slots-section .add-slots-btn:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+/* =============================================
+   STUDENT CALENDAR BOOKING STYLES
+   ============================================= */
+
+.calendar-booking-layout {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 24px;
+  background: #f8fafc;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+@media (max-width: 768px) {
+  .calendar-booking-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.calendar-booking-layout .calendar-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.calendar-booking-layout .calendar-section label {
+  font-weight: 600;
+  color: #334155;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.calendar-booking-layout .calendar-section label i {
+  color: #667eea;
+}
+
+.calendar-booking-layout .react-calendar {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  font-family: inherit;
+  width: 320px;
+}
+
+.calendar-booking-layout .react-calendar__navigation {
+  margin-bottom: 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px 12px 0 0;
+  padding: 8px;
+}
+
+.calendar-booking-layout .react-calendar__navigation button {
+  color: white;
+  font-weight: 600;
+  min-width: 40px;
+  background: none;
+  border-radius: 8px;
+}
+
+.calendar-booking-layout .react-calendar__navigation button:hover:enabled {
+  background: rgba(255,255,255,0.2);
+}
+
+.calendar-booking-layout .react-calendar__tile {
+  padding: 12px 8px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.calendar-booking-layout .react-calendar__tile:disabled {
+  background-color: #f1f5f9;
+  color: #94a3b8;
+}
+
+.calendar-booking-layout .react-calendar__tile--active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  color: white !important;
+}
+
+.calendar-booking-layout .react-calendar__tile.has-availability {
+  background: #ecfdf5;
+  color: #10b981;
+  font-weight: 600;
+}
+
+.calendar-booking-layout .react-calendar__tile.has-availability:hover {
+  background: #d1fae5;
+}
+
+.calendar-legend {
+  display: flex;
+  gap: 16px;
+  padding: 12px;
+  background: white;
+  border-radius: 8px;
+  justify-content: center;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: #64748b;
+}
+
+.legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 4px;
+}
+
+.legend-dot.available {
+  background: #10b981;
+}
+
+.legend-dot.unavailable {
+  background: #e2e8f0;
+}
+
+/* Student Time Slots */
+.calendar-booking-layout .time-slots-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.calendar-booking-layout .time-slots-section label {
+  font-weight: 600;
+  color: #334155;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.calendar-booking-layout .time-slots-section label i {
+  color: #667eea;
+}
+
+.time-slots-grid.student-slots {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.time-slots-grid.student-slots .time-slot-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 16px;
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.time-slots-grid.student-slots .time-slot-btn:hover:not(:disabled) {
+  border-color: #667eea;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+}
+
+.time-slots-grid.student-slots .time-slot-btn.selected {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: transparent;
+}
+
+.time-slots-grid.student-slots .time-slot-btn.fully-booked {
+  background: #f1f5f9;
+  border-color: #e2e8f0;
+  color: #94a3b8;
+  cursor: not-allowed;
+}
+
+.time-slots-grid.student-slots .slot-time {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.time-slots-grid.student-slots .slot-seats {
+  font-size: 12px;
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.no-slots-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+  background: white;
+  border-radius: 12px;
+  color: #64748b;
+}
+
+.no-slots-message i {
+  font-size: 32px;
+  margin-bottom: 12px;
+  color: #94a3b8;
+}
+
+.no-slots-message p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* =============================================
+   FULL RESULTS DASHBOARD MODAL (Counselor View)
+   ============================================= */
+
+.student-results-modal.full-dashboard {
+  width: 95vw;
+  max-width: 1400px;
+  max-height: 95vh;
+  height: auto;
+}
+
+.student-results-modal.full-dashboard .modal-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 16px 24px;
+  border-radius: 16px 16px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.student-results-modal.full-dashboard .modal-header h2 {
+  margin: 0;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.student-results-modal.full-dashboard .modal-header .close-btn {
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.student-results-modal.full-dashboard .modal-header .close-btn:hover {
+  background: rgba(255,255,255,0.3);
+  transform: scale(1.1);
+}
+
+.student-results-modal.full-dashboard .modal-body {
+  padding: 0;
+  overflow-y: auto;
+  max-height: calc(95vh - 70px);
+}
+
+.results-dashboard-wrapper {
+  background: #f8fafc;
+}
+
+/* Override ResultsDashboard styles inside the modal */
+.results-dashboard-wrapper .results-dashboard-page {
+  padding: 20px;
+  margin: 0;
+  max-width: 100%;
+}
+
+.results-dashboard-wrapper .student-profile-banner {
+  margin-bottom: 20px;
+}
+
+/* Make charts responsive in modal */
+.results-dashboard-wrapper .chart-container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Hide download button in counselor view (optional) */
+.results-dashboard-wrapper .download-report-btn {
+  display: none;
+}

@@ -1,0 +1,306 @@
+{
+  "version": "2025-12-30",
+  "source": "psychometric_test.xlsx",
+  "questions": [
+    {
+      "id": 1,
+      "text": "I enjoy solving puzzles, riddles, or brain teasers.",
+      "trait": "AP",
+      "scale": 5
+    },
+    {
+      "id": 2,
+      "text": "I like working with numbers, data, or statistics.",
+      "trait": "AP",
+      "scale": 5
+    },
+    {
+      "id": 3,
+      "text": "I often question information and try to verify if it’s true.",
+      "trait": "AP",
+      "scale": 5
+    },
+    {
+      "id": 4,
+      "text": "I enjoy subjects like Maths, Science, or Logical Reasoning.",
+      "trait": "AP",
+      "scale": 5
+    },
+    {
+      "id": 5,
+      "text": "I like breaking big problems into smaller parts to solve them.",
+      "trait": "AP",
+      "scale": 5
+    },
+    {
+      "id": 6,
+      "text": "I am comfortable interpreting graphs, charts, or tables.",
+      "trait": "AP",
+      "scale": 5
+    },
+    {
+      "id": 7,
+      "text": "I enjoy comparing different options and choosing the most efficient one.",
+      "trait": "AP",
+      "scale": 5
+    },
+    {
+      "id": 8,
+      "text": "I stay calm and think logically even under pressure.",
+      "trait": "AP",
+      "scale": 5
+    },
+    {
+      "id": 9,
+      "text": "I like understanding why and how things work, not just the final answer.",
+      "trait": "AP",
+      "scale": 5
+    },
+    {
+      "id": 10,
+      "text": "I can quickly spot mistakes or inconsistencies in calculations or arguments.",
+      "trait": "AP",
+      "scale": 5
+    },
+    {
+      "id": 11,
+      "text": "I like creating something new – stories, designs, music, or art.",
+      "trait": "CR",
+      "scale": 5
+    },
+    {
+      "id": 12,
+      "text": "I often think of multiple ways to do the same task.",
+      "trait": "CR",
+      "scale": 5
+    },
+    {
+      "id": 13,
+      "text": "I pay attention to aesthetics – colours, layouts, or visual appeal.",
+      "trait": "CR",
+      "scale": 5
+    },
+    {
+      "id": 14,
+      "text": "I enjoy activities like drawing, composing, designing, or editing.",
+      "trait": "CR",
+      "scale": 5
+    },
+    {
+      "id": 15,
+      "text": "I get excited by brainstorming and idea generation sessions.",
+      "trait": "CR",
+      "scale": 5
+    },
+    {
+      "id": 16,
+      "text": "I prefer open-ended tasks rather than step-by-step fixed instructions.",
+      "trait": "CR",
+      "scale": 5
+    },
+    {
+      "id": 17,
+      "text": "I can imagine future scenarios or concepts that don’t exist yet.",
+      "trait": "CR",
+      "scale": 5
+    },
+    {
+      "id": 18,
+      "text": "I get bored doing very repetitive, routine work.",
+      "trait": "CR",
+      "scale": 5
+    },
+    {
+      "id": 19,
+      "text": "People often come to me for original ideas or a “fresh perspective”.",
+      "trait": "CR",
+      "scale": 5
+    },
+    {
+      "id": 20,
+      "text": "I enjoy experimenting with new styles, formats, or creative tools.",
+      "trait": "CR",
+      "scale": 5
+    },
+    {
+      "id": 21,
+      "text": "I feel confident speaking in front of groups.",
+      "trait": "SI",
+      "scale": 5
+    },
+    {
+      "id": 22,
+      "text": "I find it easy to start conversations with new people.",
+      "trait": "SI",
+      "scale": 5
+    },
+    {
+      "id": 23,
+      "text": "I enjoy motivating, guiding, or leading others in group work.",
+      "trait": "SI",
+      "scale": 5
+    },
+    {
+      "id": 24,
+      "text": "I often take initiative in group discussions or projects.",
+      "trait": "SI",
+      "scale": 5
+    },
+    {
+      "id": 25,
+      "text": "I am comfortable handling disagreements or differing opinions.",
+      "trait": "SI",
+      "scale": 5
+    },
+    {
+      "id": 26,
+      "text": "I am interested in understanding what people want or need.",
+      "trait": "SI",
+      "scale": 5
+    },
+    {
+      "id": 27,
+      "text": "I enjoy roles where I have to convince, negotiate, or sell ideas.",
+      "trait": "SI",
+      "scale": 5
+    },
+    {
+      "id": 28,
+      "text": "I like networking and building useful relationships with people.",
+      "trait": "SI",
+      "scale": 5
+    },
+    {
+      "id": 29,
+      "text": "I prefer working with people rather than working completely alone.",
+      "trait": "SI",
+      "scale": 5
+    },
+    {
+      "id": 30,
+      "text": "Others see me as confident, outgoing, or influential.",
+      "trait": "SI",
+      "scale": 5
+    },
+    {
+      "id": 31,
+      "text": "I like understanding how machines, gadgets, or tools work.",
+      "trait": "PT",
+      "scale": 5
+    },
+    {
+      "id": 32,
+      "text": "I enjoy building, assembling, fixing, or tinkering with things.",
+      "trait": "PT",
+      "scale": 5
+    },
+    {
+      "id": 33,
+      "text": "I prefer clear, practical tasks over very theoretical discussions.",
+      "trait": "PT",
+      "scale": 5
+    },
+    {
+      "id": 34,
+      "text": "I am comfortable following technical diagrams, manuals, or instructions.",
+      "trait": "PT",
+      "scale": 5
+    },
+    {
+      "id": 35,
+      "text": "I like using technology to solve real-world problems.",
+      "trait": "PT",
+      "scale": 5
+    },
+    {
+      "id": 36,
+      "text": "I am interested in fields like engineering, IT, infrastructure, or logistics.",
+      "trait": "PT",
+      "scale": 5
+    },
+    {
+      "id": 37,
+      "text": "I prefer seeing visible, tangible results of my work.",
+      "trait": "PT",
+      "scale": 5
+    },
+    {
+      "id": 38,
+      "text": "I can learn to use new tools, software, or equipment relatively quickly.",
+      "trait": "PT",
+      "scale": 5
+    },
+    {
+      "id": 39,
+      "text": "I pay attention to accuracy and safety while working with equipment.",
+      "trait": "PT",
+      "scale": 5
+    },
+    {
+      "id": 40,
+      "text": "I would enjoy roles that involve operations, systems, or process improvement.",
+      "trait": "PT",
+      "scale": 5
+    },
+    {
+      "id": 41,
+      "text": "I try to understand how others are feeling before reacting.",
+      "trait": "CS",
+      "scale": 5
+    },
+    {
+      "id": 42,
+      "text": "I feel satisfied when I help someone solve a personal or academic problem.",
+      "trait": "CS",
+      "scale": 5
+    },
+    {
+      "id": 43,
+      "text": "I am patient when explaining things to others.",
+      "trait": "CS",
+      "scale": 5
+    },
+    {
+      "id": 44,
+      "text": "I am interested in the well-being and growth of people around me.",
+      "trait": "CS",
+      "scale": 5
+    },
+    {
+      "id": 45,
+      "text": "I would like a career where I can support, protect, or guide others.",
+      "trait": "CS",
+      "scale": 5
+    },
+    {
+      "id": 46,
+      "text": "People often come to me for advice or emotional support.",
+      "trait": "CS",
+      "scale": 5
+    },
+    {
+      "id": 47,
+      "text": "I am willing to put in effort to help someone, even if it doesn’t benefit me directly.",
+      "trait": "CS",
+      "scale": 5
+    },
+    {
+      "id": 48,
+      "text": "I am comfortable listening to others’ problems without judging them.",
+      "trait": "CS",
+      "scale": 5
+    },
+    {
+      "id": 49,
+      "text": "I enjoy mentoring, teaching, or coaching people.",
+      "trait": "CS",
+      "scale": 5
+    },
+    {
+      "id": 50,
+      "text": "I feel a sense of responsibility towards society and my community.",
+      "trait": "CS",
+      "scale": 5
+    }
+  ]
+}

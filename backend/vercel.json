@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/health.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/status.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/index.js",
+      "use": "@vercel/node",
+      "config": { "maxDuration": 30 }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/health",
+      "dest": "/api/health.js"
+    },
+    {
+      "src": "/status",
+      "dest": "/api/status.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.js"
+    }
+  ],
+  "regions": ["bom1"],
+  "crons": [
+    {
+      "path": "/cron/sync-sheets",
+      "schedule": "0 0 * * *"
+    }
+  ]
+}

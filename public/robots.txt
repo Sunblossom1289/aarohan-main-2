@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin-login
+Disallow: /admin-dashboard
+Disallow: /student-dashboard
+Disallow: /counselor-dashboard
+
+Sitemap: https://myaarohan.com/sitemap.xml
