@@ -776,15 +776,15 @@ const HeroSection = memo(({ onNavigate, shouldReduceAnimations }) => {
         </div>
       </div>
 
-     <AnimatePresence>
-        {isMobile && isFormOpen && (
+      <AnimatePresence>
+        {isMobile && isFormOpen && createPortal(
           <motion.div 
             initial={{ opacity: 0 }} 
             animate={{ opacity: 1 }} 
             exit={{ opacity: 0 }} 
             transition={{ duration: 0.2 }} 
             onClick={() => setIsFormOpen(false)} 
-            style={{ position: 'fixed', inset: 0, zIndex: 1000, background: 'rgba(15, 23, 42, 0.6)', backdropFilter: 'blur(8px)', display: 'flex', alignItems: 'flex-end', justifyContent: 'center' }}
+            style={{ position: 'fixed', inset: 0, zIndex: 99999, background: 'rgba(15, 23, 42, 0.6)', backdropFilter: 'blur(8px)', display: 'flex', alignItems: 'flex-end', justifyContent: 'center' }}
           >
             <motion.div 
               initial={{ y: '100%' }} 
@@ -792,21 +792,20 @@ const HeroSection = memo(({ onNavigate, shouldReduceAnimations }) => {
               exit={{ y: '100%' }} 
               transition={{ type: 'spring', damping: 28, stiffness: 300 }} 
               onClick={(e) => e.stopPropagation()} 
-              style={{ width: '100%', maxHeight: '92vh', background: 'white', borderRadius: '24px 24px 0 0', boxShadow: '0 -10px 40px rgba(0,0,0,0.15)', position: 'relative', display: 'flex', flexDirection: 'column' }}
+              style={{ width: '100%', maxHeight: '88vh', background: 'white', borderRadius: '24px 24px 0 0', boxShadow: '0 -10px 40px rgba(0,0,0,0.15)', position: 'relative', display: 'flex', flexDirection: 'column' }}
             >
               
+              {/* --- FLOATING CLOSE BUTTON (Form ke upar hawa me) --- */}
+              <button 
+                onClick={() => setIsFormOpen(false)} 
+                style={{ position: 'absolute', top: '-60px', right: '16px', background: 'white', border: 'none', borderRadius: '50%', width: '44px', height: '44px', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', color: 'var(--yale-blue)', zIndex: 1000, boxShadow: '0 4px 12px rgba(0,0,0,0.2)' }}
+              >
+                <X size={24} />
+              </button>
+
               {/* --- FIXED TOP AREA (Never scrolls) --- */}
               <div style={{ position: 'relative', flexShrink: 0, padding: '20px 20px 10px 20px' }}>
-                {/* Top Drag Handle */}
                 <div style={{ width: '40px', height: '4px', borderRadius: '2px', background: '#cbd5e1', margin: '0 auto' }} />
-                
-                {/* X (Cut) Button with High Z-Index */}
-                <button 
-                  onClick={() => setIsFormOpen(false)} 
-                  style={{ position: 'absolute', top: '16px', right: '16px', background: '#f1f5f9', border: 'none', borderRadius: '50%', width: '36px', height: '36px', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', color: 'var(--yale-blue)', zIndex: 100 }}
-                >
-                  <X size={20} />
-                </button>
               </div>
 
               {/* --- SCROLLABLE FORM AREA --- */}
@@ -815,7 +814,8 @@ const HeroSection = memo(({ onNavigate, shouldReduceAnimations }) => {
               </div>
 
             </motion.div>
-          </motion.div>
+          </motion.div>,
+          document.body
         )}
       </AnimatePresence>
     </section>
@@ -1137,10 +1137,10 @@ const PerksSection = memo(({ shouldReduceAnimations }) => {
 // --- PROGRAM MODAL ---
 const ProgramModal = memo(({ program, onClose, onNavigate }) => {
   if (!program) return null;
-  return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={onClose} style={{ position: 'fixed', inset: 0, zIndex: 9999, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '20px', background: 'rgba(27, 73, 101, 0.4)', backdropFilter: 'blur(8px)' }}>
+  return createPortal(
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={onClose} style={{ position: 'fixed', inset: 0, zIndex: 99999, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '20px', background: 'rgba(27, 73, 101, 0.4)', backdropFilter: 'blur(8px)' }}>
       <motion.div initial={{ opacity: 0, scale: 0.9, y: 20 }} animate={{ opacity: 1, scale: 1, y: 0 }} exit={{ opacity: 0, scale: 0.9, y: 20 }} onClick={(e) => e.stopPropagation()} transition={{ type: "spring", damping: 25, stiffness: 300 }} style={{ width: '100%', maxWidth: '900px', background: 'rgba(255, 255, 255, 0.85)', backdropFilter: 'blur(24px)', borderRadius: '32px', border: '1px solid rgba(255, 255, 255, 0.8)', boxShadow: '0 25px 50px -12px rgba(27, 73, 101, 0.25), inset 0 0 0 1px rgba(255,255,255,0.2)', padding: '40px', position: 'relative', overflow: 'hidden', display: 'flex', flexDirection: 'column', maxHeight: '90vh', overflowY: 'auto' }}>
-        <button onClick={onClose} style={{ position: 'absolute', top: '24px', right: '24px', background: 'rgba(255,255,255,0.5)', border: 'none', width: '40px', height: '40px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', color: 'var(--yale-blue)', transition: 'all 0.2s' }} onMouseOver={(e) => e.currentTarget.style.background = 'white'} onMouseOut={(e) => e.currentTarget.style.background = 'rgba(255,255,255,0.5)'}><X size={24} /></button>
+        <button onClick={onClose} style={{ position: 'absolute', top: '24px', right: '24px', background: 'rgba(255,255,255,0.9)', border: 'none', width: '44px', height: '44px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', color: 'var(--yale-blue)', transition: 'all 0.2s', zIndex: 100, boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }} onMouseOver={(e) => e.currentTarget.style.background = 'white'} onMouseOut={(e) => e.currentTarget.style.background = 'rgba(255,255,255,0.9)'}><X size={24} /></button>
         <h2 style={{ fontSize: 'clamp(1.8rem, 4vw, 2.5rem)', fontWeight: 800, color: 'var(--yale-blue)', marginBottom: '32px', textAlign: 'center', lineHeight: 1.2 }}>{program.title}</h2>
         <div className="grid md:grid-cols-2 gap-8" style={{ alignItems: 'center' }}>
           <div style={{ borderRadius: '24px', overflow: 'hidden', boxShadow: '0 20px 40px -10px rgba(0,0,0,0.1)', background: 'white', padding: '10px' }}>
@@ -1159,13 +1159,10 @@ const ProgramModal = memo(({ program, onClose, onNavigate }) => {
           </div>
         </div>
       </motion.div>
-    </motion.div>
+    </motion.div>,
+    document.body
   );
 });
-
-
-// --- PROGRAMS SECTION ---
-
 
 // --- PROGRAMS SECTION ---
 const ProgramsSection = memo(({ onNavigate, shouldReduceAnimations }) => {
@@ -1248,7 +1245,6 @@ const ProgramsSection = memo(({ onNavigate, shouldReduceAnimations }) => {
             <button onClick={scrollToNext} style={getCenterArrowStyle(canScrollRight, 'right')} aria-label="Scroll right"><ChevronRight size={28} strokeWidth={2.5} /></button>
           </div>
         ) : (
-          // UPDATED: Desktop ke liye 4-column grid layout
           <div className="grid md:grid-cols-4" style={{ gap: '24px', position: 'relative' }}>
             {programs.map((prog, i) => (
               <motion.div 
