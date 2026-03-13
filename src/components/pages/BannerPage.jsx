@@ -264,33 +264,36 @@ const CareerNetworkCanvas = memo(({ shouldReduceAnimations }) => {
 
 // ==================== PREMIUM PAGE BREAKER STACK WRAPPER ====================
 // UPDATED FOR SLEEK MOBILE LOOK (Not rounded/toy-like)
+// ==================== PREMIUM PAGE BREAKER STACK WRAPPER ====================
 const StackedSection = memo(({ children, zIndex, isFirst = false, bg, shouldReduceAnimations }) => {
   const isMobile = useIsMobile();
   const ref = useRef(null);
   
+  // ✨ THE MASTERSTROKE FIX ✨
+  // 'start start' ki jagah 'end end' kar diya hai.
+  // Iska matlab: Page tab tak shrink nahi hoga jab tak naya page screen par aana shuru na ho.
+  // Isse phone me padhte waqt page bilkul normal rahega, aur end me makkhan ki tarah stack hoga!
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["start start", "end start"]
+    offset: ["end end", "end start"]
   });
   
   // Desktop animations
-  const scaleDesktop = useTransform(scrollYProgress, [0, 1], [1, 0.90]);
+  const scaleDesktop = useTransform(scrollYProgress, [0, 1], [1, 0.88]);
   const opacityDesktop = useTransform(scrollYProgress, [0, 1], [1, 0.3]);
   const yDesktop = useTransform(scrollYProgress, [0, 1], ["0%", "10%"]);
 
-  // Mobile animations - ✨ CLEAN & PROFESSIONAL ✨
-  // Shrink bahut kam kiya hai (0.97) taaki chota aur ajeeb na lage
-  const scaleMobile = useTransform(scrollYProgress, [0, 1], [1, 0.97]); 
-  // Dark hone ki jagah bas halka sa dim hoga (0.7)
-  const opacityMobile = useTransform(scrollYProgress, [0, 1], [1, 0.7]); 
-  const yMobile = useTransform(scrollYProgress, [0, 1], ["0%", "2%"]); 
+  // Mobile animations - Perfect Slide-over timing
+  const scaleMobile = useTransform(scrollYProgress, [0, 1], [1, 0.92]); 
+  const opacityMobile = useTransform(scrollYProgress, [0, 1], [1, 0.4]); 
+  const yMobile = useTransform(scrollYProgress, [0, 1], ["0%", "5%"]); 
 
   const y = isMobile ? yMobile : yDesktop;
   const scale = isMobile ? scaleMobile : scaleDesktop;
   const opacity = isMobile ? opacityMobile : opacityDesktop;
 
-  // Mobile pe borders ko bahut kam round kiya hai (20px) taaki page jaisa lage, khilona nahi
-  const topRadius = isFirst ? '0' : (isMobile ? '20px' : '40px'); 
+  // Professional Sleek Corners
+  const topRadius = isFirst ? '0' : (isMobile ? '24px' : '40px'); 
   const overlapMargin = isFirst ? '0' : (isMobile ? '-24px' : '-40px');
   const innerPadding = isFirst ? '0' : (isMobile ? '24px' : '40px');
 
@@ -317,20 +320,20 @@ const StackedSection = memo(({ children, zIndex, isFirst = false, bg, shouldRedu
         scale,
         opacity,
         transformOrigin: "top center",
-        // Mobile pe shadow halki ki hai taaki clean lage
-        boxShadow: isFirst ? 'none' : (isMobile ? '0 -10px 25px -5px rgba(15, 23, 42, 0.15)' : '0 -25px 50px -15px rgba(15, 23, 42, 0.35)'),
+        boxShadow: isFirst ? 'none' : (isMobile ? '0 -15px 30px -10px rgba(15, 23, 42, 0.15)' : '0 -25px 50px -15px rgba(15, 23, 42, 0.35)'),
         borderTopLeftRadius: topRadius,
         borderTopRightRadius: topRadius,
         overflow: 'hidden',
         marginTop: overlapMargin,
         
+        // GPU Acceleration
         willChange: "transform, opacity",
         transform: "translateZ(0)", 
         WebkitBackfaceVisibility: "hidden",
         backfaceVisibility: "hidden",
       }}
     >
-      <div style={{ paddingTop: innerPadding, paddingBottom: isMobile ? '16px' : '0', height: '100%' }}>
+      <div style={{ paddingTop: innerPadding, paddingBottom: isMobile ? '24px' : '0', height: '100%' }}>
         {children}
       </div>
     </motion.div>
