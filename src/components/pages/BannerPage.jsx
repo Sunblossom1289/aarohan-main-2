@@ -262,8 +262,8 @@ const CareerNetworkCanvas = memo(({ shouldReduceAnimations }) => {
   return <canvas ref={canvasRef} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }} />;
 });
 
-
 // ==================== PREMIUM PAGE BREAKER STACK WRAPPER ====================
+// UPDATED FOR SLEEK MOBILE LOOK (Not rounded/toy-like)
 const StackedSection = memo(({ children, zIndex, isFirst = false, bg, shouldReduceAnimations }) => {
   const isMobile = useIsMobile();
   const ref = useRef(null);
@@ -274,32 +274,34 @@ const StackedSection = memo(({ children, zIndex, isFirst = false, bg, shouldRedu
   });
   
   // Desktop animations
+  const scaleDesktop = useTransform(scrollYProgress, [0, 1], [1, 0.90]);
+  const opacityDesktop = useTransform(scrollYProgress, [0, 1], [1, 0.3]);
   const yDesktop = useTransform(scrollYProgress, [0, 1], ["0%", "10%"]);
-  const scaleDesktop = useTransform(scrollYProgress, [0, 1], [1, 0.94]);
-  const opacityDesktop = useTransform(scrollYProgress, [0, 1], [1, 0.5]);
 
-  // Mobile animations (Micro-interactions for smoothness)
-  const yMobile = useTransform(scrollYProgress, [0, 1], ["0%", "4%"]);
-  const scaleMobile = useTransform(scrollYProgress, [0, 1], [1, 0.98]);
-  const opacityMobile = useTransform(scrollYProgress, [0, 1], [1, 0.8]);
+  // Mobile animations - ✨ CLEAN & PROFESSIONAL ✨
+  // Shrink bahut kam kiya hai (0.97) taaki chota aur ajeeb na lage
+  const scaleMobile = useTransform(scrollYProgress, [0, 1], [1, 0.97]); 
+  // Dark hone ki jagah bas halka sa dim hoga (0.7)
+  const opacityMobile = useTransform(scrollYProgress, [0, 1], [1, 0.7]); 
+  const yMobile = useTransform(scrollYProgress, [0, 1], ["0%", "2%"]); 
 
   const y = isMobile ? yMobile : yDesktop;
   const scale = isMobile ? scaleMobile : scaleDesktop;
   const opacity = isMobile ? opacityMobile : opacityDesktop;
 
+  // Mobile pe borders ko bahut kam round kiya hai (20px) taaki page jaisa lage, khilona nahi
+  const topRadius = isFirst ? '0' : (isMobile ? '20px' : '40px'); 
+  const overlapMargin = isFirst ? '0' : (isMobile ? '-24px' : '-40px');
+  const innerPadding = isFirst ? '0' : (isMobile ? '24px' : '40px');
+
   if (shouldReduceAnimations) {
     return (
       <div style={{ 
-        position: 'relative', 
-        zIndex, 
-        background: bg, 
-        paddingTop: isFirst ? '0' : '40px',
-        marginTop: isFirst ? '0' : '-30px', 
-        borderTopLeftRadius: isFirst ? '0' : '32px',
-        borderTopRightRadius: isFirst ? '0' : '32px',
-        boxShadow: isFirst ? 'none' : '0 -15px 30px rgba(0,0,0,0.05)'
+        position: 'relative', zIndex, background: bg, marginTop: overlapMargin,
+        borderTopLeftRadius: topRadius, borderTopRightRadius: topRadius,
+        boxShadow: isFirst ? 'none' : '0 -10px 20px rgba(0,0,0,0.05)'
       }}>
-        {children}
+        <div style={{ paddingTop: innerPadding, height: '100%' }}>{children}</div>
       </div>
     );
   }
@@ -315,15 +317,20 @@ const StackedSection = memo(({ children, zIndex, isFirst = false, bg, shouldRedu
         scale,
         opacity,
         transformOrigin: "top center",
-        boxShadow: isFirst ? 'none' : '0 -30px 60px -15px rgba(27, 73, 101, 0.4)',
-        borderTopLeftRadius: isFirst ? '0' : (isMobile ? '32px' : '40px'),
-        borderTopRightRadius: isFirst ? '0' : (isMobile ? '32px' : '40px'),
+        // Mobile pe shadow halki ki hai taaki clean lage
+        boxShadow: isFirst ? 'none' : (isMobile ? '0 -10px 25px -5px rgba(15, 23, 42, 0.15)' : '0 -25px 50px -15px rgba(15, 23, 42, 0.35)'),
+        borderTopLeftRadius: topRadius,
+        borderTopRightRadius: topRadius,
         overflow: 'hidden',
+        marginTop: overlapMargin,
+        
         willChange: "transform, opacity",
-        marginTop: isFirst ? '0' : (isMobile ? '-30px' : '-40px'),
+        transform: "translateZ(0)", 
+        WebkitBackfaceVisibility: "hidden",
+        backfaceVisibility: "hidden",
       }}
     >
-      <div style={{ paddingTop: isFirst ? '0' : (isMobile ? '30px' : '40px'), height: '100%' }}>
+      <div style={{ paddingTop: innerPadding, paddingBottom: isMobile ? '16px' : '0', height: '100%' }}>
         {children}
       </div>
     </motion.div>
@@ -792,7 +799,6 @@ const HeroSection = memo(({ onNavigate, shouldReduceAnimations }) => {
               exit={{ y: '100%' }} 
               transition={{ type: 'spring', damping: 28, stiffness: 300 }} 
               onClick={(e) => e.stopPropagation()} 
-              /* ✨ YAHAN CHANGE HAI: maxHeight ko 100px kam kar diya taaki Navbar ke neeche na dabe ✨ */
               style={{ width: '100%', maxHeight: 'calc(100vh - 100px)', background: 'white', borderRadius: '24px 24px 0 0', boxShadow: '0 -10px 40px rgba(0,0,0,0.15)', position: 'relative', display: 'flex', flexDirection: 'column' }}
             >
               
@@ -1808,7 +1814,7 @@ export function BannerPage({ onNavigate, initialView }) {
           <FeaturesSection onNavigate={handleMainNavigate} shouldReduceAnimations={shouldReduceAnimations} />
         </StackedSection>
 
-        {/* PERKS SECTION */}
+        {/* PERKS SECTION - EKDUM PURANA WALA (Bina kisi ched-chaad ke) */}
         <div style={{
           position: 'relative',
           zIndex: 3,
