@@ -24,16 +24,19 @@ const useDevicePerformance = () => {
     const handleMotionChange = (e) => setPrefersReducedMotion(e.matches);
     motionQuery.addEventListener('change', handleMotionChange);
     
-    const detectLowEndDevice = () => {
-      const memory = navigator.deviceMemory || 8; 
-      const cores = navigator.hardwareConcurrency || 4;
-      const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
-      const slowConnection = connection && (connection.saveData || connection.effectiveType === '2g' || connection.effectiveType === 'slow-2g');
-      const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-      const isLow = memory <= 4 || cores <= 2 || slowConnection || (isMobile && memory <= 6);
-      
-      setIsLowEnd(isLow);
-    };
+  const detectLowEndDevice = () => {
+  const memory = navigator.deviceMemory || 8; 
+  const cores = navigator.hardwareConcurrency || 4;
+  const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+  
+  // Sirf genuinely slow internet par band karein
+  const slowConnection = connection && (connection.saveData || connection.effectiveType === '2g' || connection.effectiveType === 'slow-2g');
+  
+  // CONDITION RELAXED: Ab sirf bohot purane phones (<= 2GB RAM) par hi animations off honge.
+  const isLow = memory <= 2 || cores <= 2 || slowConnection;
+  
+  setIsLowEnd(isLow);
+};
     
     detectLowEndDevice();
     return () => motionQuery.removeEventListener('change', handleMotionChange);
@@ -401,7 +404,7 @@ const GlobalStyles = memo(() => (
     .hero-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 80px; }
     .section-padding { padding: 8rem 0; }
     .sticky-wrapper { height: 500vh; }
-    .sticky-viewport { position: sticky; top: 0; height: 100vh; overflow: hidden; }
+    .sticky-viewport { position: sticky; top: 0; height: 100dvh; overflow: hidden; }
 
     @media (min-width: 1024px) { 
       .lg\\:flex { display: flex; } 
